@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ── Header: reduce all dimensions by 25% ── */
+
+/* Large screens (≥ 64em) — theme defaults: padding 5rem 6rem, title 3.25rem, tagline 1.25rem */
+@media screen and (min-width: 64em) {
+  .page-header        { padding: 3.75rem 4.5rem; }
+  .project-name       { font-size: 2.44rem; }
+  .project-tagline    { font-size: 0.94rem; }
+}
+
+/* Medium screens (42em – 64em) — theme defaults: padding 3rem 4rem, title 2.25rem, tagline 1.15rem */
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header        { padding: 2.25rem 3rem; }
+  .project-name       { font-size: 1.69rem; }
+  .project-tagline    { font-size: 0.86rem; }
+}
+
+/* Small screens (< 42em) — theme defaults: padding 2rem 1rem, title 1.75rem, tagline 1rem */
+@media screen and (max-width: 42em) {
+  .page-header        { padding: 1.5rem 0.75rem; }
+  .project-name       { font-size: 1.31rem; }
+  .project-tagline    { font-size: 0.75rem; }
+}
