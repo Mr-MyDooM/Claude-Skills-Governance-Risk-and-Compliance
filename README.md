@@ -200,13 +200,13 @@ The HIPAA skill turns Claude into a knowledgeable HIPAA compliance advisor cover
 
 ## Install via Claude Code Marketplace
 
-If you use [Claude Code](https://claude.ai/claude-code) — the AI-powered CLI for developers — these skills are also available as installable Claude Code plugins through a hosted marketplace. This is the recommended installation path for developers and teams, as it supports version-pinning, automatic updates, and team-wide distribution without any manual file handling.
+If you use Claude Code — the AI-powered CLI for developers — these skills are also available as installable Claude Code plugins through a hosted marketplace. This is the recommended installation path for developers and teams, as it supports version-pinning, automatic updates, and team-wide distribution without any manual file handling.
 
 Add the marketplace and install the skills you need directly from the terminal:
 
 ```shell
 /plugin marketplace add Sushegaad/Claude-Skills-Governance-Risk-and-Compliance
-/plugin install iso27001@grc-skills
+/plugin install iso27001@grc-skills soc2@grc-skills fedramp@grc-skills gdpr-compliance@grc-skills hipaa-compliance@grc-skills
 ```
 
 Teams can pre-wire the marketplace in `.claude/settings.json` so every developer gets the skills automatically when they open the project — no manual install required.
