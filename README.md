@@ -1,7 +1,7 @@
 # Claude Skills for Governance, Risk & Compliance (GRC)
 Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, TSA Cybersecurity, and ISO 42001 AI Management System — powered by Claude Skills.
 
-Benchmarked across 10 test cases (2 per framework) using eval framework — each graded against 7 verifiable assertions by independent agents. Skills scored **99% ± 4%** vs a baseline of 93% ± 7%.
+Benchmarked across 18 test cases (2 per framework) using the eval framework — each graded against 4–5 verifiable assertions by independent agents. Skills scored **94% ± 10%** vs a baseline of 72% ± 28%.
 
 [![Release: v0.1.0](https://img.shields.io/badge/Release-v0.1.0-brightgreen.svg)](../../releases/tag/v0.1.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -333,15 +333,29 @@ Teams can pre-wire the marketplace in `.claude/settings.json` so every developer
 
 ## Skill Evaluation
 
-These skills were benchmarked using the [Claude Skill Creator](https://claude.ai) eval framework. 10 realistic test cases were run across all 5 skills — 2 per framework — covering gap analysis, policy drafting, control narratives, code audits, and document generation. Each test case was evaluated against 7 objectively verifiable assertions by independent grader agents.
+These skills were benchmarked using the [Claude Skill Creator](https://claude.ai) eval framework. **18 realistic test cases** were run across all 9 skills — 2 per framework — covering gap analysis, policy drafting, control narratives, code audits, breach response, CRMP drafting, and AI system impact assessments. Each test case was evaluated against 4–5 objectively verifiable assertions by independent grader agents comparing skill-assisted vs. baseline Claude responses.
 
 | Configuration | Pass Rate |
 |---------------|-----------|
-| **With GRC Skills installed** | **99% ± 4%** |
-| Without skills (baseline Claude) | 93% ± 7% |
-| **Delta** | **+6 points** |
+| **With GRC Skills installed** | **94% ± 10%** |
+| Without skills (baseline Claude) | 72% ± 28% |
+| **Delta** | **+22 points** |
 
-The skills add the most measurable value on framework-specific tasks: producing correct Annex A control breakdowns for ISO 27001, mapping gaps to CC9 for SOC 2 vendor risk, generating proper formal third-person SSP prose for FedRAMP, handling special category health data correctly under GDPR Art. 9, and consistently including required HIPAA legal disclaimers.
+### Per-Skill Results (with skills)
+
+| Skill | Test Cases | Pass Rate | What Was Tested |
+|-------|-----------|-----------|-----------------|
+| ISO 27001 | 2 | 100% | Stage 2 gap analysis; Access Control Policy drafting |
+| SOC 2 | 2 | 100% | First-time audit guidance; CC6.3 control documentation |
+| FedRAMP | 2 | 88% | AC-2 SSP narrative; Impact level & LI-SaaS guidance |
+| GDPR | 2 | 100% | API endpoint audit with article citations; DPA drafting |
+| HIPAA | 2 | 100% | Technical safeguards (45 CFR 164.312); Breach notification |
+| NIST CSF | 2 | 78% | CSF 2.0 OT/IT gap assessment; Target profile for healthcare |
+| PCI DSS | 2 | 90% | Stripe.js SAQ/CDE scope; v4.0.1 new requirements |
+| TSA Cybersecurity | 2 | 100% | Pipeline CRMP obligations; Incident Reporting section |
+| ISO 42001 | 2 | 90% | AI user gap assessment; AISIA for resume screening |
+
+The skills add the most measurable value on highly framework-specific tasks: producing correct Annex A control IDs for ISO 27001, mapping gaps to CC criteria for SOC 2, generating formal third-person SSP prose with enhancement references for FedRAMP, applying article-level citations for GDPR, distinguishing Required vs. Addressable HIPAA specifications, using CSF 2.0 subcategory IDs for NIST, correctly identifying SAQ types for PCI, referencing specific TSA Security Directives and CISA contact details, and classifying AI system impact levels with AISIA methodology for ISO 42001.
 
 📊 **[View the full eval results →](grc-skills-eval-results.html)**
 
