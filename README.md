@@ -28,6 +28,7 @@ Benchmarked across 18 test cases (2 per framework) using the eval framework — 
 - [How to Install a Skill](#how-to-install-a-skill)
 - [Install via Claude Code Marketplace](#install-via-claude-code-marketplace)
 - [Skill Evaluation](#skill-evaluation)
+- [Customer Testimonials](#customer-testimonials)
 - [Support & Contributing](#support--contributing)
 - [Author](#author)
 - [Disclaimer](#disclaimer)
@@ -358,6 +359,39 @@ These skills were benchmarked using the [Claude Skill Creator](https://claude.ai
 The skills add the most measurable value on highly framework-specific tasks: producing correct Annex A control IDs for ISO 27001, mapping gaps to CC criteria for SOC 2, generating formal third-person SSP prose with enhancement references for FedRAMP, applying article-level citations for GDPR, distinguishing Required vs. Addressable HIPAA specifications, using CSF 2.0 subcategory IDs for NIST, correctly identifying SAQ types for PCI, referencing specific TSA Security Directives and CISA contact details, and classifying AI system impact levels with AISIA methodology for ISO 42001.
 
 📊 **[View the full eval results →](grc-skills-eval-results.html)**
+
+---
+
+## Customer Testimonials
+
+> *"This is awesome, thank you!"*
+> — Reddit u/ThePsychicCEO
+
+> *"This is awesome! Any chance you can build one for ISO 42001?"*
+> — Reddit u/ComparisonThink7683
+
+> *"As a rather new Claude Code user, I'm both impressed and thankful. It's really helpful that you release it publicly. I am at the stage where I understand the need for a well-written CLAUDE.md and skills. This will help me a lot."*
+> — Reddit u/bloulboi
+
+> *"The skills approach is a good entry point — getting Claude to reason about specific frameworks is exactly the right instinct. The gap I kept hitting was that Claude could describe the compliance picture but couldn't act on it... this is a great start."*
+> — Reddit u/sensationweb
+
+> *"Fantastic work. Going to follow this and test it out myself."*
+> — Reddit u/Efficient_Bus_923
+
+> *"I've been doing something similar for the CIS controls and it's been brilliant so far. I'll be using this for ISO and SOC 2. Thanks!"*
+> — Reddit u/gpldn
+
+> *"Hell ya. We just approved Claude for enterprise so I'll go check it out."*
+> — Reddit u/AcrobaticWatercress7
+
+> *"I'll definitely check this out. I have a skill for threat modeling and am working on some other ones, this is super helpful."*
+> — Reddit u/lilgreenbite
+
+> *"Awesome, thanks for sharing. I'm going to play around with this."*
+> — Reddit u/DeliciousNet593
+
+Additional feedback from the Reddit community: [r/grc](https://www.reddit.com/r/grc/comments/1rwp2x4/using_claude_ai_skills_to_act_as_a_dedicated_grc/) · [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1s6r359/comment/od4k30y/)
 
 ---
 
