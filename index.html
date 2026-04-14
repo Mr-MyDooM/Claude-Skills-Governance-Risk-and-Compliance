@@ -757,6 +757,12 @@ layout: null
         </div>
 
         <div class="form-group">
+          <label for="email">Email <span style="font-weight:400;color:var(--text-muted)">(optional)</span></label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" data-fs-field />
+          <span data-fs-error="email" style="color:#dc3545;font-size:0.82rem;margin-top:0.25rem;display:block;"></span>
+        </div>
+
+        <div class="form-group">
           <label for="feedback-title">Feedback Title <span style="color:#c0392b">*</span></label>
           <input type="text" id="feedback-title" name="feedback_title" placeholder="e.g. Great ISO 27001 gap analysis output" required data-fs-field />
           <span data-fs-error="feedback_title" style="color:#dc3545;font-size:0.82rem;margin-top:0.25rem;display:block;"></span>
