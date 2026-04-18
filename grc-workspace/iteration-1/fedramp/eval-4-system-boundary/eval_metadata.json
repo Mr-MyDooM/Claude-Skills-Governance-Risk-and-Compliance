@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "fedramp-system-boundary-description",
+  "prompt": "Draft a System Boundary Description for a FedRAMP Moderate SSP. Our system is a web application hosted on AWS GovCloud with a PostgreSQL database, Redis cache, and integrations with two external SaaS tools (Okta for authentication and SendGrid for email).",
+  "assertions": []
+}

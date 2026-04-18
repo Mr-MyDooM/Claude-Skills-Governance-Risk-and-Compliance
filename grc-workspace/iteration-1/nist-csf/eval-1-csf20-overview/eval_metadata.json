@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "csf20-overview",
+  "prompt": "Give me an overview of the NIST Cybersecurity Framework 2.0. What changed from version 1.1 and what are the 6 core functions?",
+  "assertions": []
+}

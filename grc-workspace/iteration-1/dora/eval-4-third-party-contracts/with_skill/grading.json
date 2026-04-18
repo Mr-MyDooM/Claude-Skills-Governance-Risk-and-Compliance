@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 3,
+  "pass_rate": 0.6,
+  "expectations": [
+    {
+      "text": "Addresses the Register of ICT Third-Party Providers requirement",
+      "passed": true,
+      "evidence": "Keywords checked: ['Register', 'register of', 'ICT third-party']... (found)"
+    },
+    {
+      "text": "Lists the mandatory contractual clauses under DORA Article 30",
+      "passed": false,
+      "evidence": "Keywords checked: ['Article 30', 'mandatory clause', 'contract']... (not found enough)"
+    },
+    {
+      "text": "Distinguishes critical from non-critical ICT third-party providers",
+      "passed": true,
+      "evidence": "Keywords checked: ['critical', 'non-critical', 'important']... (found)"
+    },
+    {
+      "text": "Mentions Critical Third-Party Providers (CTPPs) under EU oversight",
+      "passed": false,
+      "evidence": "Keywords checked: ['CTPP', 'Critical Third-Party', 'EU oversight']... (not found enough)"
+    },
+    {
+      "text": "Covers exit strategy and concentration risk requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['exit strategy', 'concentration risk', 'exit plan']... (found)"
+    }
+  ]
+}

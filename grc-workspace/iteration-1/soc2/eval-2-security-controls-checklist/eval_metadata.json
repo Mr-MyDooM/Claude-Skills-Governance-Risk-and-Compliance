@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-security-controls-checklist",
+  "prompt": "List the key controls we need for SOC 2 Security (CC) criteria. We are a cloud-native company using AWS, GitHub, and Okta. Give us a practical control checklist.",
+  "assertions": []
+}

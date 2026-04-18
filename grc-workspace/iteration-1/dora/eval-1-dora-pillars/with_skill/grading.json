@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Lists all 5 DORA pillars/chapters correctly",
+      "passed": true,
+      "evidence": "Keywords checked: ['ICT risk management', 'incident', 'resilience testing']... (found)"
+    },
+    {
+      "text": "States the DORA compliance deadline (January 17, 2025)",
+      "passed": true,
+      "evidence": "Keywords checked: ['17 January 2025', 'January 17, 2025', '17 Jan']... (found)"
+    },
+    {
+      "text": "Explains DORA applies to a wide range of financial entities including banks",
+      "passed": true,
+      "evidence": "Keywords checked: ['bank', 'financial entity', 'credit institution']... (found)"
+    },
+    {
+      "text": "Addresses the ICT third-party risk management requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['third-party', 'ICT third-party', 'vendor']... (found)"
+    },
+    {
+      "text": "Mentions the ICT incident reporting requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['incident reporting', 'major incident', 'report']... (found)"
+    }
+  ]
+}

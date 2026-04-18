@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Explains FedRAMP 20x as a modernization/automation-focused initiative",
+      "passed": true,
+      "evidence": "Keywords checked: ['20x', 'modernization', 'automation']... (found)"
+    },
+    {
+      "text": "Mentions key changes: automation, machine-readable controls, continuous monitoring improvements",
+      "passed": true,
+      "evidence": "Keywords checked: ['OSCAL', 'machine-readable', 'automation']... (found)"
+    },
+    {
+      "text": "Addresses the current status and timeline of 20x rollout",
+      "passed": true,
+      "evidence": "Keywords checked: ['pilot', '2025', '2026']... (found)"
+    },
+    {
+      "text": "Provides practical guidance on path selection",
+      "passed": true,
+      "evidence": "Keywords checked: ['recommend', 'consider', 'traditional']... (found)"
+    },
+    {
+      "text": "Mentions OSCAL",
+      "passed": true,
+      "evidence": "Keywords checked: ['OSCAL', 'Open Security Controls Assessment Language']... (found)"
+    }
+  ]
+}

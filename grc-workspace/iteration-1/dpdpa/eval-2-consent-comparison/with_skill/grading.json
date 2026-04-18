@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Identifies 'unconditional' as a DPDPA consent requirement not explicitly in GDPR",
+      "passed": true,
+      "evidence": "Keywords checked: ['unconditional', 'DPDPA', 'GDPR']... (found)"
+    },
+    {
+      "text": "Explains that bundled consent is explicitly prohibited under DPDPA",
+      "passed": true,
+      "evidence": "Keywords checked: ['bundled consent', 'bundle', 'prohibited']... (found)"
+    },
+    {
+      "text": "Highlights the absence of legitimate interests basis under DPDPA",
+      "passed": true,
+      "evidence": "Keywords checked: ['legitimate interests', 'no equivalent', 'does not exist']... (found)"
+    },
+    {
+      "text": "Mentions the Consent Manager mechanism unique to DPDPA",
+      "passed": false,
+      "evidence": "Keywords checked: ['Consent Manager', 'Section 6(3)', 'consent manager']... (not found enough)"
+    },
+    {
+      "text": "Addresses the withdrawal of consent requirements in both frameworks",
+      "passed": true,
+      "evidence": "Keywords checked: ['withdrawal', 'withdraw', 'as easy']... (found)"
+    }
+  ]
+}

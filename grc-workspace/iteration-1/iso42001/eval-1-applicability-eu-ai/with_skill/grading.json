@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Explains ISO 42001 as an AI management system (AIMS) standard",
+      "passed": true,
+      "evidence": "Keywords checked: ['ISO 42001', 'AI management system', 'AIMS']... (found)"
+    },
+    {
+      "text": "Addresses the voluntary nature of ISO 42001",
+      "passed": true,
+      "evidence": "Keywords checked: ['voluntary', 'certification', 'not mandatory']... (found)"
+    },
+    {
+      "text": "Covers the relationship to EU AI Act compliance",
+      "passed": true,
+      "evidence": "Keywords checked: ['EU AI Act', 'AI Act', 'European']... (found)"
+    },
+    {
+      "text": "Mentions AI risk assessment and AI impact assessment requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['risk assessment', 'impact assessment', 'AIIA']... (found)"
+    },
+    {
+      "text": "Addresses healthcare AI specific considerations",
+      "passed": true,
+      "evidence": "Keywords checked: ['healthcare', 'health', 'medical']... (found)"
+    }
+  ]
+}

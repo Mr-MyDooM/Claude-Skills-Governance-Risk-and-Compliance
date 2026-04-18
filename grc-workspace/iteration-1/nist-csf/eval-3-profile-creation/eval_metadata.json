@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "profile-creation",
+  "prompt": "How do we use NIST CSF profiles to assess our current cybersecurity posture and create a target state? Walk us through the process of creating Current Profile and Target Profile.",
+  "assertions": []
+}

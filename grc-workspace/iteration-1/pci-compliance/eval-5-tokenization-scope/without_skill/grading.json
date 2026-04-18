@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Explains how tokenization replaces PANs with non-sensitive tokens",
+      "passed": true,
+      "evidence": "Keywords checked: ['token', 'PAN', 'replace']... (found)"
+    },
+    {
+      "text": "Clarifies that the token service provider remains in scope for PCI DSS",
+      "passed": true,
+      "evidence": "Keywords checked: ['token service provider', 'token vault', 'in scope']... (found)"
+    },
+    {
+      "text": "Addresses what compliance obligations remain after tokenization",
+      "passed": true,
+      "evidence": "Keywords checked: ['remain', 'still required', 'obligations']... (found)"
+    },
+    {
+      "text": "Explains that tokenization does not eliminate all PCI requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['does not eliminate', 'not eliminate', 'still']... (found)"
+    },
+    {
+      "text": "Distinguishes tokenization from encryption in PCI context",
+      "passed": true,
+      "evidence": "Keywords checked: ['encryption', 'differ', 'vs.']... (found)"
+    }
+  ]
+}

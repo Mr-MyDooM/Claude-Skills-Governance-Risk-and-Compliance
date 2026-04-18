@@ -1,0 +1,6 @@
+{
+  "eval_id": 5,
+  "eval_name": "board-reporting",
+  "prompt": "We are preparing for a board presentation on our cybersecurity posture. How can we use NIST CSF to communicate risk to non-technical executives? What metrics and language should we use?",
+  "assertions": []
+}

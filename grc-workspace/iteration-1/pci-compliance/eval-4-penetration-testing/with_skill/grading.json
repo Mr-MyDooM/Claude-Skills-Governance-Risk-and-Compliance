@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "States the annual penetration testing requirement (Requirement 11.4)",
+      "passed": true,
+      "evidence": "Keywords checked: ['annual', '11.4', 'Requirement 11']... (found)"
+    },
+    {
+      "text": "Mentions requirement to test after significant infrastructure or application changes",
+      "passed": false,
+      "evidence": "Keywords checked: ['significant change', 'after changes', 'infrastructure change']... (not found enough)"
+    },
+    {
+      "text": "Covers both network-layer and application-layer testing requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['network', 'application', 'network-layer']... (found)"
+    },
+    {
+      "text": "Addresses segmentation penetration testing requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['segmentation', 'network segmentation', 'CDE']... (found)"
+    },
+    {
+      "text": "Mentions tester independence and qualification requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['independent', 'qualification', 'experience']... (found)"
+    }
+  ]
+}

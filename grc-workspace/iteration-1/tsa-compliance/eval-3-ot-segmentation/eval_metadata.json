@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-ot-segmentation",
+  "prompt": "The TSA security directives require network segmentation between OT and IT networks. We have legacy SCADA systems that were never designed to be on a segmented network. What is the practical approach to implementing segmentation for legacy OT environments?",
+  "assertions": []
+}

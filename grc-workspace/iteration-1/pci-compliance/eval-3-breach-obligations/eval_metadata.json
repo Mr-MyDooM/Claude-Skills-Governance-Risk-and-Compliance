@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-breach-obligations",
+  "prompt": "We had a security incident where our card processing system was potentially compromised. What are our PCI DSS breach notification obligations? Who do we need to notify and in what timeframe?",
+  "assertions": []
+}

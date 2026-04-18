@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-incident-reporting",
+  "prompt": "Under DORA, what are our obligations when a critical ICT third-party service provider (like our cloud provider AWS) suffers an outage? What are the incident classification and reporting requirements?",
+  "assertions": []
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Explains that TSA SDs are sector-specific to transportation/pipeline operators",
+      "passed": true,
+      "evidence": "Keywords checked: ['sector-specific', 'transportation', 'pipeline']... (found)"
+    },
+    {
+      "text": "Explains CIRCIA as a cross-sector cyber incident reporting law",
+      "passed": false,
+      "evidence": "Keywords checked: ['CIRCIA', 'cross-sector', 'reporting law']... (not found enough)"
+    },
+    {
+      "text": "Addresses the different reporting timelines",
+      "passed": true,
+      "evidence": "Keywords checked: ['24 hour', '72 hour', 'CIRCIA']... (found)"
+    },
+    {
+      "text": "Clarifies that pipeline operators may need to comply with both",
+      "passed": true,
+      "evidence": "Keywords checked: ['both', 'comply with both', 'CIRCIA and TSA']... (found)"
+    },
+    {
+      "text": "Mentions CISA as the primary CIRCIA implementing agency",
+      "passed": true,
+      "evidence": "Keywords checked: ['CISA', 'implementing', 'CIRCIA']... (found)"
+    }
+  ]
+}

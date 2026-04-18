@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Maps Okta SSO/MFA to PR.AA (Identity Management and Access Control)",
+      "passed": true,
+      "evidence": "Keywords checked: ['PR.AA', 'identity management', 'access control']... (found)"
+    },
+    {
+      "text": "Maps security awareness training to PR.AT",
+      "passed": true,
+      "evidence": "Keywords checked: ['PR.AT', 'awareness', 'training']... (found)"
+    },
+    {
+      "text": "Maps CrowdStrike EDR to platform security or detection",
+      "passed": true,
+      "evidence": "Keywords checked: ['PR.PS', 'DE.CM', 'CrowdStrike']... (found)"
+    },
+    {
+      "text": "Maps Qualys scanning to vulnerability management",
+      "passed": true,
+      "evidence": "Keywords checked: ['ID.RA', 'PR.PS', 'vulnerability']... (found)"
+    },
+    {
+      "text": "Identifies gaps or areas not covered by current controls",
+      "passed": true,
+      "evidence": "Keywords checked: ['gap', 'missing', 'not covered']... (found)"
+    }
+  ]
+}

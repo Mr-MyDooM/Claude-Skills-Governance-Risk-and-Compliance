@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-applicability",
+  "prompt": "We are building a healthcare app that allows patients to view their medical records and communicate with doctors. Do we need to comply with HIPAA? Are we a covered entity or a business associate?",
+  "assertions": []
+}

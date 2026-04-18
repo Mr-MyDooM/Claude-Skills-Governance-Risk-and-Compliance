@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "eval-4-third-party-contracts",
+  "prompt": "We use 15 different cloud and SaaS providers for critical functions. Under DORA, what contracts must we have in place with them and what due diligence is required?",
+  "assertions": []
+}

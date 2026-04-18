@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Explains DPDPA's blacklist approach vs GDPR's whitelist approach",
+      "passed": true,
+      "evidence": "Keywords checked: ['blacklist', 'whitelist', 'permissive']... (found)"
+    },
+    {
+      "text": "States that as of current date, no countries are restricted for data transfers",
+      "passed": true,
+      "evidence": "Keywords checked: ['no countries', 'no restricted', 'currently']... (found)"
+    },
+    {
+      "text": "Clarifies that transfers to US are currently permissible",
+      "passed": true,
+      "evidence": "Keywords checked: ['US', 'United States', 'permissible']... (found)"
+    },
+    {
+      "text": "Notes that no SCC-equivalent mechanism is required",
+      "passed": true,
+      "evidence": "Keywords checked: ['SCC', 'Standard Contractual', 'no equivalent']... (found)"
+    },
+    {
+      "text": "Recommends maintaining contractual safeguards as a best practice",
+      "passed": true,
+      "evidence": "Keywords checked: ['contractual safeguard', 'best practice', 'recommend']... (found)"
+    }
+  ]
+}

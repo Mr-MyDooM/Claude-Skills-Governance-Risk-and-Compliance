@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Addresses human oversight requirements in ISO 42001",
+      "passed": true,
+      "evidence": "Keywords checked: ['human oversight', 'human control', 'oversight']... (found)"
+    },
+    {
+      "text": "Covers accountability and responsibility structures for AI decisions",
+      "passed": true,
+      "evidence": "Keywords checked: ['accountability', 'responsibility', 'responsible']... (found)"
+    },
+    {
+      "text": "Mentions fairness and non-discrimination as ISO 42001 objectives",
+      "passed": true,
+      "evidence": "Keywords checked: ['fairness', 'non-discrimination', 'discrimination']... (found)"
+    },
+    {
+      "text": "Addresses explainability for individuals affected by AI decisions",
+      "passed": true,
+      "evidence": "Keywords checked: ['explainability', 'explain', 'individual']... (found)"
+    },
+    {
+      "text": "Connects ethical requirements to specific ISO 42001 clauses or controls",
+      "passed": true,
+      "evidence": "Keywords checked: ['clause', 'Annex A', 'control']... (found)"
+    }
+  ]
+}

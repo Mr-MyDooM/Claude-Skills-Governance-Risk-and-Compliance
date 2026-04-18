@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "us-company-gdpr-checklist",
+  "prompt": "We are a US-based SaaS company that has just signed our first European customer. What are the key GDPR obligations we need to comply with? We process employee data, customer account data, and usage analytics. Give us a compliance checklist.",
+  "assertions": []
+}

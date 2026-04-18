@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Distinguishes major ICT incidents from non-major incidents under DORA",
+      "passed": true,
+      "evidence": "Keywords checked: ['major incident', 'non-major', 'classification']... (found)"
+    },
+    {
+      "text": "States the initial notification timeline (4 hours for major incidents)",
+      "passed": true,
+      "evidence": "Keywords checked: ['4 hour', '4-hour', 'initial notification']... (found)"
+    },
+    {
+      "text": "States the intermediate report timeline (72 hours)",
+      "passed": true,
+      "evidence": "Keywords checked: ['72 hour', '72-hour', 'intermediate']... (found)"
+    },
+    {
+      "text": "States the final report timeline (1 month)",
+      "passed": true,
+      "evidence": "Keywords checked: ['1 month', 'one month', 'final report']... (found)"
+    },
+    {
+      "text": "Addresses notification to competent national authority",
+      "passed": true,
+      "evidence": "Keywords checked: ['competent authority', 'national authority', 'regulator']... (found)"
+    }
+  ]
+}

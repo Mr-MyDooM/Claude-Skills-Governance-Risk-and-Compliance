@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "States the number of controls changed (93 in 2022 vs 114 in 2013)",
+      "passed": true,
+      "evidence": "Keywords checked: ['93', '114']... (found)"
+    },
+    {
+      "text": "Mentions the 4 new control themes/categories in 2022",
+      "passed": true,
+      "evidence": "Keywords checked: ['organizational', 'people', 'physical']... (found)"
+    },
+    {
+      "text": "Lists at least 3 specific new controls added in 2022",
+      "passed": true,
+      "evidence": "Keywords checked: ['threat intelligence', 'cloud security', 'data masking']... (found)"
+    },
+    {
+      "text": "Mentions transition deadline or certification validity period",
+      "passed": true,
+      "evidence": "Keywords checked: ['transition', '2025', 'deadline']... (found)"
+    },
+    {
+      "text": "Explains the Annex A restructuring from 14 domains to 4 themes",
+      "passed": true,
+      "evidence": "Keywords checked: ['14', '4', 'domain']... (found)"
+    }
+  ]
+}

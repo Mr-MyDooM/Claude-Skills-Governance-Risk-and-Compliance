@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Addresses the specific challenge of legacy SCADA systems",
+      "passed": true,
+      "evidence": "Keywords checked: ['SCADA', 'legacy', 'OT']... (found)"
+    },
+    {
+      "text": "Explains DMZ or boundary network approach",
+      "passed": true,
+      "evidence": "Keywords checked: ['DMZ', 'boundary', 'segmentation']... (found)"
+    },
+    {
+      "text": "Mentions unidirectional security gateways or data diodes",
+      "passed": true,
+      "evidence": "Keywords checked: ['data diode', 'unidirectional', 'one-way']... (found)"
+    },
+    {
+      "text": "Addresses compensating controls",
+      "passed": true,
+      "evidence": "Keywords checked: ['compensating control', 'compensating', 'alternative']... (found)"
+    },
+    {
+      "text": "References TSA requirements for OT environment protection",
+      "passed": true,
+      "evidence": "Keywords checked: ['TSA', 'OT', 'operational technology']... (found)"
+    }
+  ]
+}

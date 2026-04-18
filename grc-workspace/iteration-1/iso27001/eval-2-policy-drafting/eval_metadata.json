@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "policy-drafting",
+  "prompt": "Draft an Information Security Policy for our company. We are a fintech startup with 80 employees. Keep it concise and suitable for ISO 27001 certification.",
+  "assertions": []
+}

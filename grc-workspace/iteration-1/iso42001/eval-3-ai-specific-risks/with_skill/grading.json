@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Identifies algorithmic bias and fairness as an AI-specific risk",
+      "passed": true,
+      "evidence": "Keywords checked: ['bias', 'fairness', 'algorithmic bias']... (found)"
+    },
+    {
+      "text": "Addresses model explainability/transparency as a risk category",
+      "passed": true,
+      "evidence": "Keywords checked: ['explainability', 'transparency', 'black box']... (found)"
+    },
+    {
+      "text": "Covers training data risks (quality, bias, poisoning)",
+      "passed": true,
+      "evidence": "Keywords checked: ['training data', 'data poisoning', 'data quality']... (found)"
+    },
+    {
+      "text": "Mentions model drift or degradation over time",
+      "passed": true,
+      "evidence": "Keywords checked: ['model drift', 'drift', 'degrad']... (found)"
+    },
+    {
+      "text": "Distinguishes these from traditional cybersecurity risks covered by ISO 27001",
+      "passed": true,
+      "evidence": "Keywords checked: ['ISO 27001', 'traditional', 'different']... (found)"
+    }
+  ]
+}

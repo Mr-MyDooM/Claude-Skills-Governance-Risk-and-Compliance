@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-type1-vs-type2",
+  "prompt": "We are a B2B SaaS startup and our first enterprise customer is asking for a SOC 2 Type 2 report. We have never done any SOC 2 work. Explain the difference between Type 1 and Type 2, which one we should pursue, and what the typical timeline looks like.",
+  "assertions": []
+}

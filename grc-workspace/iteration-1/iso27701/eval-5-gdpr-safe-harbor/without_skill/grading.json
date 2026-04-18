@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Clarifies that ISO 27701 is not a GDPR safe harbor",
+      "passed": false,
+      "evidence": "Keywords checked: ['not a safe harbor', 'not safe harbor', 'does not guarantee']... (not found enough)"
+    },
+    {
+      "text": "Acknowledges that ISO 27701 can serve as positive evidence of compliance efforts",
+      "passed": true,
+      "evidence": "Keywords checked: ['positive evidence', 'demonstrate', 'evidence of']... (found)"
+    },
+    {
+      "text": "Identifies specific GDPR obligations not fully covered by ISO 27701",
+      "passed": true,
+      "evidence": "Keywords checked: ['not covered', 'gap', 'goes beyond']... (found)"
+    },
+    {
+      "text": "Addresses how supervisory authorities view ISO 27701 certification",
+      "passed": true,
+      "evidence": "Keywords checked: ['supervisory authority', 'DPA', 'regulator']... (found)"
+    },
+    {
+      "text": "Explains the limitations and gaps in ISO 27701 as a GDPR compliance tool",
+      "passed": true,
+      "evidence": "Keywords checked: ['limitation', 'gap', 'not sufficient']... (found)"
+    }
+  ]
+}

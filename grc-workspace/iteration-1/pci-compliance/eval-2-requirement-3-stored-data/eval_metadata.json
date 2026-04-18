@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-requirement-3-stored-data",
+  "prompt": "Explain the PCI DSS v4.0 requirements for protecting stored cardholder data (Requirement 3). What changed from PCI DSS v3.2.1?",
+  "assertions": []
+}

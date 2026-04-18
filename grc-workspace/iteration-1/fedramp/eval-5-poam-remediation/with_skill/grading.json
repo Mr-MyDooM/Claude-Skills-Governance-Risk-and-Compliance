@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "States correct FedRAMP remediation timeframe for Critical vulnerabilities",
+      "passed": true,
+      "evidence": "Keywords checked: ['15 day', '30 day', 'Critical']... (found)"
+    },
+    {
+      "text": "States correct timeframe for High vulnerabilities",
+      "passed": true,
+      "evidence": "Keywords checked: ['30 day', 'High', '90 day']... (found)"
+    },
+    {
+      "text": "Explains the required POA&M fields and structure",
+      "passed": true,
+      "evidence": "Keywords checked: ['POA&M', 'weakness', 'milestone']... (found)"
+    },
+    {
+      "text": "Provides or describes a sample POA&M entry",
+      "passed": true,
+      "evidence": "Keywords checked: ['POA&M', 'entry', 'example']... (found)"
+    },
+    {
+      "text": "Mentions that deviation from timeframes requires a deviation request",
+      "passed": true,
+      "evidence": "Keywords checked: ['deviation', 'extension', 'request']... (found)"
+    }
+  ]
+}

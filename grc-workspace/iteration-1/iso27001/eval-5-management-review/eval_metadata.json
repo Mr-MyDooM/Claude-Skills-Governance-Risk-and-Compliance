@@ -1,0 +1,6 @@
+{
+  "eval_id": 5,
+  "eval_name": "management-review",
+  "prompt": "We received a major nonconformity during our ISO 27001 audit for 'insufficient evidence of management review.' What exactly does management review require, what evidence should we have documented, and how do we write a corrective action plan to close this nonconformity?",
+  "assertions": []
+}

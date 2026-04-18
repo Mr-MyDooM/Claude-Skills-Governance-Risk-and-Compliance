@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "eval-4-third-party-llm",
+  "prompt": "We use a third-party LLM API (like OpenAI or Anthropic) as a component in our AI product. What supplier management obligations does ISO 42001 place on us regarding this third-party AI?",
+  "assertions": []
+}

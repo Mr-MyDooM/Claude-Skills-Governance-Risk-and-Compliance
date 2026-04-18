@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-processor-controls",
+  "prompt": "What specific privacy controls does ISO 27701 require for data processors? We act as a data processor for our B2B customers.",
+  "assertions": []
+}

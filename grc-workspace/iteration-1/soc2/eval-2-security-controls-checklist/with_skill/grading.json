@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Covers logical and physical access controls (CC6 series)",
+      "passed": true,
+      "evidence": "Keywords checked: ['CC6', 'access control', 'logical access']... (found)"
+    },
+    {
+      "text": "Mentions change management controls (CC8)",
+      "passed": true,
+      "evidence": "Keywords checked: ['CC8', 'change management']... (found)"
+    },
+    {
+      "text": "Addresses incident response and monitoring (CC7)",
+      "passed": true,
+      "evidence": "Keywords checked: ['CC7', 'incident response', 'monitoring']... (found)"
+    },
+    {
+      "text": "Includes vendor/third-party risk management (CC9)",
+      "passed": true,
+      "evidence": "Keywords checked: ['CC9', 'vendor', 'third-party']... (found)"
+    },
+    {
+      "text": "References at least 5 of the CC control category series",
+      "passed": true,
+      "evidence": "Keywords checked: ['CC1', 'CC2', 'CC3']... (found)"
+    }
+  ]
+}

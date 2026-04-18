@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "References the HIPAA Security Rule for risk analysis",
+      "passed": true,
+      "evidence": "Keywords checked: ['Security Rule', '164.308', 'risk analysis']... (found)"
+    },
+    {
+      "text": "Lists required elements: scope, threat identification, vulnerability identification, likelihood and impact assessment",
+      "passed": true,
+      "evidence": "Keywords checked: ['scope', 'threat', 'vulnerability']... (found)"
+    },
+    {
+      "text": "Addresses the need to cover all ePHI across all systems",
+      "passed": true,
+      "evidence": "Keywords checked: ['ePHI', 'all systems', 'all electronic']... (found)"
+    },
+    {
+      "text": "Explains documentation requirements and record retention",
+      "passed": true,
+      "evidence": "Keywords checked: ['document', 'retain', '6 year']... (found)"
+    },
+    {
+      "text": "Mentions that risk analysis must be ongoing/periodic",
+      "passed": true,
+      "evidence": "Keywords checked: ['ongoing', 'periodic', 'regular']... (found)"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "States the prohibition on storing sensitive authentication data (SAD) after authorization",
+      "passed": true,
+      "evidence": "Keywords checked: ['sensitive authentication data', 'SAD', 'CVV']... (found)"
+    },
+    {
+      "text": "Addresses PAN (Primary Account Number) protection requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['PAN', 'Primary Account Number', 'encrypt']... (found)"
+    },
+    {
+      "text": "Covers encryption and key management requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['key management', 'encryption', 'KEK']... (found)"
+    },
+    {
+      "text": "Identifies at least 2 new or changed requirements in PCI DSS v4.0",
+      "passed": true,
+      "evidence": "Keywords checked: ['v4.0', '4.0', 'new']... (found)"
+    },
+    {
+      "text": "Mentions the March 2024 v3.2.1 retirement date or v4.0 compliance deadline",
+      "passed": true,
+      "evidence": "Keywords checked: ['March 2024', 'March 31, 2024', 'retirement']... (found)"
+    }
+  ]
+}

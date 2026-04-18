@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-gdpr-mapping",
+  "prompt": "Map ISO 27701 requirements to GDPR obligations. We want to understand how achieving ISO 27701 certification helps with GDPR compliance.",
+  "assertions": []
+}

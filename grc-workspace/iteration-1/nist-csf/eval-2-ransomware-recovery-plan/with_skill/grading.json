@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "References the Respond (RS) function categories",
+      "passed": true,
+      "evidence": "Keywords checked: ['RS.', 'Respond', 'Response Planning']... (found)"
+    },
+    {
+      "text": "References the Recover (RC) function categories",
+      "passed": true,
+      "evidence": "Keywords checked: ['RC.', 'Recover', 'Recovery Planning']... (found)"
+    },
+    {
+      "text": "Provides a time-phased plan",
+      "passed": true,
+      "evidence": "Keywords checked: ['day', 'week', 'phase']... (found)"
+    },
+    {
+      "text": "Addresses lessons learned and improvement cycle",
+      "passed": true,
+      "evidence": "Keywords checked: ['lessons learned', 'improvement', 'post-incident']... (found)"
+    },
+    {
+      "text": "Includes stakeholder communication planning",
+      "passed": true,
+      "evidence": "Keywords checked: ['stakeholder', 'communication', 'executive']... (found)"
+    }
+  ]
+}

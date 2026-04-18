@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Defines the authorization boundary clearly",
+      "passed": true,
+      "evidence": "Keywords checked: ['authorization boundary', 'boundary', 'in scope']... (found)"
+    },
+    {
+      "text": "Lists all included system components",
+      "passed": true,
+      "evidence": "Keywords checked: ['PostgreSQL', 'Redis', 'AWS GovCloud']... (found)"
+    },
+    {
+      "text": "Addresses external SaaS integrations and their FedRAMP status",
+      "passed": true,
+      "evidence": "Keywords checked: ['Okta', 'SendGrid', 'FedRAMP']... (found)"
+    },
+    {
+      "text": "Mentions interconnection security agreements for external systems",
+      "passed": false,
+      "evidence": "Keywords checked: ['ISA', 'MOU', 'interconnection']... (not found enough)"
+    },
+    {
+      "text": "Notes AWS GovCloud as the infrastructure layer and its FedRAMP inheritance",
+      "passed": true,
+      "evidence": "Keywords checked: ['AWS GovCloud', 'GovCloud', 'inherit']... (found)"
+    }
+  ]
+}

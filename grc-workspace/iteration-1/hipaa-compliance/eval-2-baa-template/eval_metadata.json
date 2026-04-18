@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-baa-template",
+  "prompt": "Draft a HIPAA Business Associate Agreement (BAA) template for a cloud storage vendor we are using to store PHI. Include all required provisions.",
+  "assertions": []
+}

@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "ransomware-recovery-plan",
+  "prompt": "We are a mid-size manufacturing company that experienced a ransomware attack. Using the NIST CSF framework, help us build a 90-day recovery and improvement plan covering the Respond and Recover functions.",
+  "assertions": []
+}

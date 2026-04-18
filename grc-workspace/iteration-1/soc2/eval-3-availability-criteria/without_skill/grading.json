@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Identifies Availability as one of the 5 Trust Services Criteria",
+      "passed": true,
+      "evidence": "Keywords checked: ['Trust Services Criteria', 'Availability', 'TSC']... (found)"
+    },
+    {
+      "text": "Mentions uptime/availability commitments and SLAs",
+      "passed": true,
+      "evidence": "Keywords checked: ['uptime', 'SLA', 'availability']... (found)"
+    },
+    {
+      "text": "Covers disaster recovery and business continuity requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['disaster recovery', 'business continuity', 'DR']... (found)"
+    },
+    {
+      "text": "Explains backup and recovery testing requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['backup', 'recovery', 'test']... (found)"
+    },
+    {
+      "text": "Distinguishes A-series controls from CC-series controls",
+      "passed": false,
+      "evidence": "Keywords checked: ['A1', 'CC', 'A-series']... (not found enough)"
+    }
+  ]
+}

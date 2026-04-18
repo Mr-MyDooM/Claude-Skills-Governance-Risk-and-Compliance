@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 3,
+  "pass_rate": 0.6,
+  "expectations": [
+    {
+      "text": "Explains all three impact levels: Low, Moderate, High",
+      "passed": true,
+      "evidence": "Keywords checked: ['Low', 'Moderate', 'High']... (found)"
+    },
+    {
+      "text": "References FIPS 199 as the basis for impact categorization",
+      "passed": false,
+      "evidence": "Keywords checked: ['FIPS 199', 'FIPS-199']... (not found enough)"
+    },
+    {
+      "text": "States approximate number of controls for each level",
+      "passed": true,
+      "evidence": "Keywords checked: ['156', '323', '421']... (found)"
+    },
+    {
+      "text": "Addresses law enforcement data sensitivity and likely High impact designation",
+      "passed": true,
+      "evidence": "Keywords checked: ['High', 'law enforcement', 'sensitive']... (found)"
+    },
+    {
+      "text": "Mentions LI-SaaS as a special category",
+      "passed": false,
+      "evidence": "Keywords checked: ['LI-SaaS', 'Low Impact SaaS']... (not found enough)"
+    }
+  ]
+}

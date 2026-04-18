@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "control-mapping",
+  "prompt": "Map our current controls to the NIST CSF Protect function. We have: Okta SSO with MFA, CrowdStrike EDR, Qualys vulnerability scanning, Druva cloud backup, and a written security awareness training program.",
+  "assertions": []
+}

@@ -1,0 +1,746 @@
+{
+  "iso27001": {
+    "eval-1-gap-assessment": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-2-policy-drafting": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-3-2013-vs-2022": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-4-risk-assessment": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-5-management-review": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    }
+  },
+  "soc2": {
+    "eval-1-type1-vs-type2": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-2-security-controls-checklist": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-3-availability-criteria": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-4-access-control-policy": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-5-audit-exception-response": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    }
+  },
+  "fedramp": {
+    "eval-1-authorization-process": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-2-impact-levels": {
+      "with_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.4,
+        "passed": 2,
+        "total": 5
+      }
+    },
+    "eval-3-fedramp-20x": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-4-system-boundary": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-5-poam-remediation": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    }
+  },
+  "gdpr-compliance": {
+    "eval-1-us-company-checklist": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-2-dpa-template": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-3-subject-access-request": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-4-cookie-consent": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-5-breach-notification": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    }
+  },
+  "hipaa-compliance": {
+    "eval-1-applicability": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-2-baa-template": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-3-encryption-requirements": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-4-risk-analysis": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-5-workforce-violation": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    }
+  },
+  "nist-csf": {
+    "eval-1-csf20-overview": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-2-ransomware-recovery-plan": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-3-profile-creation": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-4-control-mapping": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-5-board-reporting": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    }
+  },
+  "pci-compliance": {
+    "eval-1-stripe-saq": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-2-requirement-3-stored-data": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-3-breach-obligations": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-4-penetration-testing": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-5-tokenization-scope": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    }
+  },
+  "tsa-compliance": {
+    "eval-1-pipeline-requirements": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-2-cirp-requirements": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-3-ot-segmentation": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-4-airport-applicability": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-5-tsa-vs-circia": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    }
+  },
+  "iso42001": {
+    "eval-1-applicability-eu-ai": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-2-aims-requirements": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-3-ai-specific-risks": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-4-third-party-llm": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-5-ai-ethics": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    }
+  },
+  "iso27701": {
+    "eval-1-extension-to-27001": {
+      "with_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-2-gdpr-mapping": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-3-processor-controls": {
+      "with_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-4-privacy-impact-assessment": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-5-gdpr-safe-harbor": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    }
+  },
+  "dora": {
+    "eval-1-dora-pillars": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-2-incident-reporting": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-3-tlpt-testing": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-4-third-party-contracts": {
+      "with_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.4,
+        "passed": 2,
+        "total": 5
+      }
+    },
+    "eval-5-dora-vs-eba": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    }
+  },
+  "dpdpa": {
+    "eval-1-us-company-applicability": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "eval-2-consent-comparison": {
+      "with_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-3-childrens-data": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "total": 5
+      }
+    },
+    "eval-4-cross-border-transfers": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "total": 5
+      }
+    },
+    "eval-5-significant-data-fiduciary": {
+      "with_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      },
+      "without_skill": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "total": 5
+      }
+    }
+  }
+}

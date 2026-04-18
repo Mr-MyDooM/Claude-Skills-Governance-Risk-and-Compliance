@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-pipeline-requirements",
+  "prompt": "We operate a natural gas pipeline that falls under TSA jurisdiction. What are our current TSA cybersecurity requirements? We have heard about the security directives — summarize what they require.",
+  "assertions": []
+}

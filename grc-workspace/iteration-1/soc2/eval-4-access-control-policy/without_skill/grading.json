@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Includes access provisioning and deprovisioning procedures",
+      "passed": true,
+      "evidence": "Keywords checked: ['provisioning', 'deprovisioning', 'onboarding']... (found)"
+    },
+    {
+      "text": "Addresses least privilege and need-to-know principles",
+      "passed": true,
+      "evidence": "Keywords checked: ['least privilege', 'need-to-know', 'minimum necessary']... (found)"
+    },
+    {
+      "text": "Mentions MFA requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['MFA', 'multi-factor', 'two-factor']... (found)"
+    },
+    {
+      "text": "Includes periodic access review requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['access review', 'periodic', 'quarterly']... (found)"
+    },
+    {
+      "text": "Has clear scope, purpose, and review/approval sections",
+      "passed": true,
+      "evidence": "Keywords checked: ['scope', 'purpose', 'review']... (found)"
+    }
+  ]
+}

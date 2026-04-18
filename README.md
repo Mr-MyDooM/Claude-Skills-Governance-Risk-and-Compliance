@@ -1,11 +1,11 @@
 # Claude Skills for Governance, Risk & Compliance (GRC)
-Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, TSA Cybersecurity, ISO 42001 AI Management System, ISO 27701 Privacy Information Management, and DORA Digital Operational Resilience — powered by Claude Skills.
+Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, TSA Cybersecurity, ISO 42001 AI Management System, ISO 27701 Privacy Information Management, DORA Digital Operational Resilience, and India's Digital Personal Data Protection Act (DPDPA) — powered by Claude Skills.
 
-Benchmarked across 18 test cases (2 per framework) using the eval framework — each graded against 4–5 verifiable assertions by independent agents. Skills scored **94% ± 10%** vs a baseline of 72% ± 28%.
+Benchmarked across 60 test cases (5 per framework) using the eval framework — each graded against 5 verifiable assertions by independent agents. Skills scored **92%** vs a baseline of **84%** across 300 total assertions.
 
 [![Release: v0.3.0](https://img.shields.io/badge/Release-v0.3.0-brightgreen.svg)](../../releases/tag/v0.3.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills: 11](https://img.shields.io/badge/Skills-11-green.svg)](#the-skills)
+[![Skills: 12](https://img.shields.io/badge/Skills-12-green.svg)](#the-skills)
 [![Built with Claude](https://img.shields.io/badge/Built%20with-Claude-orange.svg)](https://claude.ai)
 
 ---
@@ -26,6 +26,7 @@ Benchmarked across 18 test cases (2 per framework) using the eval framework — 
   - [ISO 42001 AI Management System](#-iso-42001-ai-management-system)
   - [ISO 27701 Privacy Information Management](#-iso-27701-privacy-information-management)
   - [DORA Digital Operational Resilience](#-dora-digital-operational-resilience)
+  - [DPDPA India Digital Personal Data Protection](#-dpdpa-india-digital-personal-data-protection)
 - [Potential Use Cases](#potential-use-cases)
 - [How to Install a Skill](#how-to-install-a-skill)
 - [Install via Claude Code Marketplace](#install-via-claude-code-marketplace)
@@ -284,6 +285,28 @@ The DORA skill turns Claude into an expert advisor on **Regulation (EU) 2022/255
 
 ---
 
+### 12. 🇮🇳 DPDPA India Digital Personal Data Protection
+
+**File:** `DPDPA - Claude Skill/dpdpa.skill`
+
+The DPDPA skill turns Claude into an expert advisor on India's **Digital Personal Data Protection Act, 2023** and the finalized **DPDP Rules, 2025** (notified 13 November 2025, effective 13 May 2027). It covers all 44 sections of the Act and all 23 Rules, with precise section-level citations, GDPR-alignment mapping, and guidance calibrated for both Indian companies and global organizations with Indian data subjects.
+
+**What it does:**
+- Conducts structured **DPDPA gap analyses** covering notice and consent (Sections 5–6 + Rules 3–4), lawful processing (Section 7), Data Fiduciary obligations (Section 8 + Rules 6–9), children's data (Section 9 + Rules 10–12), and SDF obligations (Section 10 + Rule 13)
+- **Distinguishes DPDPA from GDPR** across 8 key dimensions — scope (digital-only vs. all personal data), lawful bases (no legitimate interests in DPDPA), consent standard (unconditional + no bundling), cross-border transfers (blacklist vs. whitelist), erasure right (narrower in DPDPA), DPO requirements (SDFs only; India-resident), children's threshold (18 years vs. 16), and enforcement model (single Board vs. multi-DPA)
+- Guides **notice design** per Rule 3 — standalone format, plain language, multi-language obligations (Eighth Schedule), and legacy data notice requirements for pre-commencement data
+- Advises on the **two lawful bases only** — Consent (Section 6) and the nine Certain Legitimate Uses (Section 7) — and identifies GDPR processing activities that require fresh consent under DPDPA
+- Guides **breach notification** per Section 8(6) and Rule 6 — 72-hour Board notification timeline, content requirements, Processor notification obligations, and the difference from GDPR's risk-threshold approach (all breaches notifiable to Board)
+- Designs **children's data compliance programmes** — 18-year threshold, Rule 12 parental verification methods (DigiLocker, government tokens, existing verified data, virtual tokens), and absolute prohibitions on tracking/profiling/targeted advertising
+- Advises **Significant Data Fiduciaries (SDFs)** on additional obligations — India-resident DPO (Section 10 + Rule 13(2)), annual DPIA (Rule 13(3)), annual independent audit (Rule 13(4)), and data localisation readiness
+- Guides **Data Principal rights fulfilment** — access (Section 11), correction/erasure (Section 12), grievance redressal (Section 13 — mandatory exhaustion before Board complaint), and the unique right to nominate (Section 14)
+- Advises on **cross-border transfers** — blacklist approach (Section 16), no countries currently notified as restricted (April 2026), and contractual safeguards recommended despite absence of formal restrictions
+- Advises **global organisations** on their territorial obligations — India-nexus test (Section 3), GDPR compliance gaps that don't satisfy DPDPA, and GDPR-to-DPDPA migration priorities
+
+**Trigger phrases:** `DPDPA`, `Digital Personal Data Protection Act`, `India data protection`, `Data Fiduciary`, `Data Principal`, `Significant Data Fiduciary`, `SDF`, `Data Protection Board of India`, `DPBI`, `DPDP Rules 2025`, `Section 5 DPDPA`, `Section 6 DPDPA`, `Section 7 DPDPA`, `Section 8 DPDPA`, `Section 9 DPDPA`, `Section 10 DPDPA`, `Rule 3 DPDP`, `Rule 6 DPDP breach notification`, `Rule 12 parental consent`, `India privacy law`, `India digital privacy`, `DPDPA gap analysis`, `DPDPA vs GDPR`, `India data law`, `MeitY data protection`, `DigiLocker consent`, `India children data law`, `DPDPA consent requirements`, `DPDPA breach notification`, `India cross-border data transfer`
+
+---
+
 ## Potential Use Cases
 
 | Scenario | Relevant Skill(s) |
@@ -352,6 +375,17 @@ The DORA skill turns Claude into an expert advisor on **Regulation (EU) 2022/255
 | Drafting an ICT Third-Party Risk Policy satisfying CDR (EU) 2024/1773 | DORA |
 | Advising on the interaction between DORA and NIS2 for a financial entity | DORA |
 | Mapping DORA obligations to legacy EBA ICT guidelines and identifying what changed | DORA |
+| Running a DPDPA gap analysis for an Indian SaaS company ahead of the May 2027 compliance deadline | DPDPA |
+| Identifying which GDPR-compliant processing activities need fresh consent or re-mapping under DPDPA | DPDPA + GDPR |
+| Designing a notice compliant with Section 5 and Rule 3, including multi-language obligations | DPDPA |
+| Implementing a 72-hour breach notification pipeline per Section 8(6) and Rule 6 | DPDPA |
+| Designing a children's data compliance programme with Rule 12 parental verification (DigiLocker, virtual tokens) | DPDPA |
+| Assessing whether a digital platform must eliminate targeted advertising and behavioural tracking for under-18 users | DPDPA |
+| Advising a global company on its India data transfer obligations — blacklist approach vs. GDPR's whitelist | DPDPA |
+| Preparing for potential Significant Data Fiduciary designation — DPO appointment, DPIA, and audit readiness | DPDPA |
+| Updating Data Processing Agreements with vendors to satisfy Rule 16 | DPDPA |
+| Assessing whether a company relying on legitimate interests for analytics must obtain consent under DPDPA | DPDPA |
+| Building a Data Principal rights fulfilment procedure covering access, correction, erasure, and nomination | DPDPA |
 
 ---
 
@@ -372,6 +406,7 @@ The DORA skill turns Claude into an expert advisor on **Regulation (EU) 2022/255
    | 🤖 ISO 42001 AI Management System | [ISO-42001.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/ISO%2042001%20-%20Claude%20Skill/ISO-42001.skill) |
    | 🔒 ISO 27701 Privacy Information Management | [iso27701.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/ISO%2027701%20-%20Claude%20Skill/iso27701.skill) |
    | 🏦 DORA Digital Operational Resilience | [dora.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/DORA%20-%20Claude%20Skill/dora.skill) |
+   | 🇮🇳 DPDPA India Digital Personal Data Protection | [dpdpa.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/DPDPA%20-%20Claude%20Skill/dpdpa.skill) |
 
 2. Open Claude and navigate to **Customize → Skills**.
 3. Click **Upload Skill** and select the `.skill` file.
@@ -391,7 +426,7 @@ Add the marketplace and install the skills you need directly from the terminal:
 
 ```shell
 /plugin marketplace add Sushegaad/Claude-Skills-Governance-Risk-and-Compliance
-/plugin install iso27001@grc-skills soc2@grc-skills fedramp@grc-skills gdpr-compliance@grc-skills hipaa-compliance@grc-skills nist-csf@grc-skills pci-compliance@grc-skills tsa-compliance@grc-skills iso42001@grc-skills iso27701@grc-skills dora@grc-skills
+/plugin install iso27001@grc-skills soc2@grc-skills fedramp@grc-skills gdpr-compliance@grc-skills hipaa-compliance@grc-skills nist-csf@grc-skills pci-compliance@grc-skills tsa-compliance@grc-skills iso42001@grc-skills iso27701@grc-skills dora@grc-skills dpdpa@grc-skills
 ```
 
 Teams can pre-wire the marketplace in `.claude/settings.json` so every developer gets the skills automatically when they open the project — no manual install required.
@@ -402,29 +437,34 @@ Teams can pre-wire the marketplace in `.claude/settings.json` so every developer
 
 ## Skill Evaluation
 
-These skills were benchmarked using the [Claude Skill Creator](https://claude.ai) eval framework. **18 realistic test cases** were run across all 9 skills — 2 per framework — covering gap analysis, policy drafting, control narratives, code audits, breach response, CRMP drafting, and AI system impact assessments. Each test case was evaluated against 4–5 objectively verifiable assertions by independent grader agents comparing skill-assisted vs. baseline Claude responses.
+These skills were benchmarked using the [Claude Skill Creator](https://claude.ai) eval framework. **60 realistic test cases** were run across all 12 skills — 5 per framework — covering gap analysis, policy drafting, control deep-dives, edge cases, and compliance advice scenarios. Each test case was evaluated against 5 objectively verifiable assertions by independent grader agents comparing skill-assisted vs. baseline Claude responses.
 
-| Configuration | Pass Rate |
-|---------------|-----------|
-| **With GRC Skills installed** | **94% ± 10%** |
-| Without skills (baseline Claude) | 72% ± 28% |
-| **Delta** | **+22 points** |
+| Configuration | Pass Rate | Assertions Passed |
+|---------------|-----------|-------------------|
+| **With GRC Skills installed** | **92%** | **276 / 300** |
+| Without skills (baseline Claude) | 84% | 252 / 300 |
+| **Delta** | **+8 points** | **+24 assertions** |
 
-### Per-Skill Results (with skills)
+### Per-Skill Results
 
-| Skill | Test Cases | Pass Rate | What Was Tested |
-|-------|-----------|-----------|-----------------|
-| ISO 27001 | 2 | 100% | Stage 2 gap analysis; Access Control Policy drafting |
-| SOC 2 | 2 | 100% | First-time audit guidance; CC6.3 control documentation |
-| FedRAMP | 2 | 88% | AC-2 SSP narrative; Impact level & LI-SaaS guidance |
-| GDPR | 2 | 100% | API endpoint audit with article citations; DPA drafting |
-| HIPAA | 2 | 100% | Technical safeguards (45 CFR 164.312); Breach notification |
-| NIST CSF | 2 | 78% | CSF 2.0 OT/IT gap assessment; Target profile for healthcare |
-| PCI DSS | 2 | 90% | Stripe.js SAQ/CDE scope; v4.0.1 new requirements |
-| TSA Cybersecurity | 2 | 100% | Pipeline CRMP obligations; Incident Reporting section |
-| ISO 42001 | 2 | 90% | AI user gap assessment; AISIA for resume screening |
+| Skill | Test Cases | With Skill | Baseline | Delta | What Was Tested |
+|-------|-----------|-----------|---------|-------|-----------------|
+| ISO 27001 | 5 | **100%** | 84% | +16% | Gap assessment; Policy drafting; 2013→2022 transition; Risk assessment; Management review CAP |
+| SOC 2 | 5 | **100%** | 84% | +16% | Type 1 vs 2; CC controls checklist; Availability criteria; Access control policy; Audit exception response |
+| FedRAMP | 5 | **84%** | 76% | +8% | Authorization pathways; Impact levels; FedRAMP 20x; System boundary; POA&M remediation timelines |
+| GDPR | 5 | **88%** | 88% | +0% | US company checklist; Article 28 DPA; Subject access request; Cookie consent; 72-hour breach notification |
+| HIPAA | 5 | **92%** | 88% | +4% | Covered entity analysis; BAA template; Encryption (addressable vs required); Risk analysis; Workforce violation |
+| NIST CSF | 5 | **96%** | 84% | +12% | CSF 2.0 overview; Ransomware recovery plan; Profile creation; Control mapping; Board reporting |
+| PCI DSS | 5 | **92%** | 88% | +4% | SAQ type selection; Req 3 stored data (v4.0); Breach obligations; Penetration testing; Tokenization scope |
+| TSA Cybersecurity | 5 | **100%** | 96% | +4% | Pipeline directive requirements; CIRP elements; OT/IT segmentation; Airport applicability; TSA vs CIRCIA |
+| ISO 42001 | 5 | **92%** | 80% | +12% | AIMS applicability; Key requirements; AI-specific risks; Third-party LLM management; AI ethics controls |
+| ISO 27701 | 5 | **76%** | 84% | -8% | Extension to ISO 27001; GDPR mapping; Processor controls; PIA methodology; Certification as GDPR evidence |
+| DORA | 5 | **88%** | 72% | +16% | Five pillars; ICT incident reporting timelines; TLPT requirements; Third-party contracts; DORA vs EBA |
+| DPDPA | 5 | **96%** | 80% | +16% | Applicability to foreign entities; Consent vs GDPR; Children's data (18-year threshold); Cross-border transfers; SDF obligations |
 
-The skills add the most measurable value on highly framework-specific tasks: producing correct Annex A control IDs for ISO 27001, mapping gaps to CC criteria for SOC 2, generating formal third-person SSP prose with enhancement references for FedRAMP, applying article-level citations for GDPR, distinguishing Required vs. Addressable HIPAA specifications, using CSF 2.0 subcategory IDs for NIST, correctly identifying SAQ types for PCI, referencing specific TSA Security Directives and CISA contact details, and classifying AI system impact levels with AISIA methodology for ISO 42001.
+Skills add the most measurable value on highly framework-specific tasks: clause-level precision for ISO 27001, CC criteria mapping for SOC 2, exact FedRAMP POA&M timeframes and document names, GDPR article citations, HIPAA regulatory section references, CSF 2.0 subcategory IDs, PCI DSS v4.0.1 requirement numbers, TSA Security Directive citations, ISO 42001 AIMS clause references, DORA Article citations and exact incident reporting timelines (4h/72h/1 month), and DPDPA-specific terminology (Data Fiduciary, 8 legitimate uses, blacklist transfers).
+
+The ISO 27701 skill shows a slight negative delta in keyword-matching grading because baseline Claude already has substantial GDPR/privacy knowledge; qualitative review of the outputs confirms the skill still provides more structured, citation-precise responses.
 
 📊 **[View the full eval results →](grc-skills-eval-results.html)**
 

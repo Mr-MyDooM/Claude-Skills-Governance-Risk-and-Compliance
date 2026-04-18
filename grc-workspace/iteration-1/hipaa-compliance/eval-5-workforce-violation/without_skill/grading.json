@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Identifies this as a Privacy Rule violation",
+      "passed": true,
+      "evidence": "Keywords checked: ['Privacy Rule', 'impermissible', 'unauthorized']... (found)"
+    },
+    {
+      "text": "Mentions the minimum necessary standard violation",
+      "passed": false,
+      "evidence": "Keywords checked: ['minimum necessary', 'minimum-necessary']... (not found enough)"
+    },
+    {
+      "text": "Addresses the requirement for workforce sanctions",
+      "passed": true,
+      "evidence": "Keywords checked: ['sanction', 'workforce', 'disciplin']... (found)"
+    },
+    {
+      "text": "Explains the breach risk assessment requirement",
+      "passed": true,
+      "evidence": "Keywords checked: ['breach risk assessment', 'four-factor', '4-factor']... (found)"
+    },
+    {
+      "text": "Covers the HIPAA penalty tiers and their ranges",
+      "passed": true,
+      "evidence": "Keywords checked: ['penalty', 'tier', 'civil monetary']... (found)"
+    }
+  ]
+}

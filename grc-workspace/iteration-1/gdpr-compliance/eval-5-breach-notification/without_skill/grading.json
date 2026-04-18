@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "References the 72-hour notification deadline to supervisory authority (Article 33)",
+      "passed": true,
+      "evidence": "Keywords checked: ['72 hour', 'Article 33', 'supervisory authority']... (found)"
+    },
+    {
+      "text": "Explains the threshold for when notification is required",
+      "passed": false,
+      "evidence": "Keywords checked: ['risk to rights', 'risk to freedoms', 'threshold']... (not found enough)"
+    },
+    {
+      "text": "Lists required elements of the Article 33 supervisory authority notification",
+      "passed": true,
+      "evidence": "Keywords checked: ['Article 33', 'nature', 'categories']... (found)"
+    },
+    {
+      "text": "Explains when data subjects must also be notified (Article 34)",
+      "passed": true,
+      "evidence": "Keywords checked: ['Article 34', 'data subjects', 'high risk']... (found)"
+    },
+    {
+      "text": "Addresses record-keeping requirements even when notification is not required",
+      "passed": true,
+      "evidence": "Keywords checked: ['record', 'document', 'Article 33(5)']... (found)"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "References TSA Pipeline Security Directives and the current requirement framework",
+      "passed": true,
+      "evidence": "Keywords checked: ['Security Directive', 'TSA', 'pipeline']... (found)"
+    },
+    {
+      "text": "Mentions the 24-hour cyber incident reporting requirement to CISA",
+      "passed": true,
+      "evidence": "Keywords checked: ['24 hour', '24-hour', 'CISA']... (found)"
+    },
+    {
+      "text": "Addresses cybersecurity coordinator designation requirement",
+      "passed": true,
+      "evidence": "Keywords checked: ['cybersecurity coordinator', 'coordinator', 'designate']... (found)"
+    },
+    {
+      "text": "Covers the four required cybersecurity measures",
+      "passed": true,
+      "evidence": "Keywords checked: ['access control', 'network segmentation', 'patch']... (found)"
+    },
+    {
+      "text": "Mentions annual cybersecurity assessment or review requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['annual', 'assessment', 'review']... (found)"
+    }
+  ]
+}

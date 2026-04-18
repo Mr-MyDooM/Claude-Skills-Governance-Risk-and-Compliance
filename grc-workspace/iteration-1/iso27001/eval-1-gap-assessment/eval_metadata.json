@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "gap-assessment",
+  "prompt": "We are a 120-person SaaS company that has never had any formal information security certification. We store customer PII and financial data in AWS. Our CEO wants ISO 27001 certification within 18 months. Give us a realistic gap assessment of what we are likely missing and a phased roadmap to achieve certification.",
+  "assertions": []
+}

@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "consent-comparison",
+  "prompt": "Compare DPDPA consent requirements with GDPR consent requirements. What are the key differences our compliance team needs to know?",
+  "assertions": []
+}

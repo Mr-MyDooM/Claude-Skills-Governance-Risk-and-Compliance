@@ -1,0 +1,6 @@
+{
+  "eval_id": 5,
+  "eval_name": "eval-5-audit-exception-response",
+  "prompt": "Our SOC 2 audit found an exception: we had a former employee whose access was not revoked for 45 days after termination. How serious is this? What control failures does it represent and how should we write the management response?",
+  "assertions": []
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Explains that marketing and analytics cookies require consent",
+      "passed": true,
+      "evidence": "Keywords checked: ['consent', 'marketing', 'analytics']... (found)"
+    },
+    {
+      "text": "References both GDPR and the ePrivacy Directive",
+      "passed": true,
+      "evidence": "Keywords checked: ['ePrivacy', 'Cookie Law', 'Directive']... (found)"
+    },
+    {
+      "text": "Describes valid consent requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['freely given', 'specific', 'informed']... (found)"
+    },
+    {
+      "text": "Addresses cookie withdrawal mechanisms",
+      "passed": true,
+      "evidence": "Keywords checked: ['withdraw', 'opt-out', 'revoke']... (found)"
+    },
+    {
+      "text": "Mentions that pre-ticked boxes or continued browsing do not constitute valid consent",
+      "passed": true,
+      "evidence": "Keywords checked: ['pre-ticked', 'pre-checked', 'browsing']... (found)"
+    }
+  ]
+}

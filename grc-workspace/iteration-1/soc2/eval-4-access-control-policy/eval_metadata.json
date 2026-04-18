@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "eval-4-access-control-policy",
+  "prompt": "Write a sample Access Control Policy suitable for SOC 2 Type 2 audit evidence. We are a 50-person SaaS company using Okta for SSO.",
+  "assertions": []
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 3,
+  "pass_rate": 0.6,
+  "expectations": [
+    {
+      "text": "Explains ISO 27701 as a privacy extension (PIMS) to ISO 27001",
+      "passed": true,
+      "evidence": "Keywords checked: ['PIMS', 'privacy extension', 'ISO 27701']... (found)"
+    },
+    {
+      "text": "Distinguishes requirements for PII controllers vs PII processors",
+      "passed": true,
+      "evidence": "Keywords checked: ['PII controller', 'PII processor', 'controller']... (found)"
+    },
+    {
+      "text": "Describes what additional controls are required beyond ISO 27001",
+      "passed": true,
+      "evidence": "Keywords checked: ['additional', 'Annex A', 'Annex B']... (found)"
+    },
+    {
+      "text": "Explains that ISO 27701 cannot be certified standalone",
+      "passed": false,
+      "evidence": "Keywords checked: ['cannot', 'standalone', 'requires ISO 27001']... (not found enough)"
+    },
+    {
+      "text": "Mentions the relationship to GDPR and other privacy regulations",
+      "passed": false,
+      "evidence": "Keywords checked: ['GDPR', 'privacy regulation', 'regulation']... (not found enough)"
+    }
+  ]
+}

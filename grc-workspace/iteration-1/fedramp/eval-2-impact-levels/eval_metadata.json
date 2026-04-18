@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "fedramp-impact-levels",
+  "prompt": "What is the difference between FedRAMP Low, Moderate, and High impact levels? Our product handles law enforcement sensitive data. Which impact level applies to us?",
+  "assertions": []
+}

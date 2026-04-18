@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 3,
+  "pass_rate": 0.6,
+  "expectations": [
+    {
+      "text": "Explains the difference between Agency ATO and JAB P-ATO",
+      "passed": true,
+      "evidence": "Keywords checked: ['Agency ATO', 'JAB', 'P-ATO']... (found)"
+    },
+    {
+      "text": "Mentions the role of a 3PAO",
+      "passed": true,
+      "evidence": "Keywords checked: ['3PAO', 'Third Party Assessment']... (found)"
+    },
+    {
+      "text": "Lists the core FedRAMP documentation: SSP, SAP, SAR, POA&M",
+      "passed": true,
+      "evidence": "Keywords checked: ['SSP', 'SAP', 'SAR']... (found)"
+    },
+    {
+      "text": "Explains FedRAMP Ready designation as a precursor step",
+      "passed": false,
+      "evidence": "Keywords checked: ['FedRAMP Ready', 'Ready designation', 'precursor']... (not found enough)"
+    },
+    {
+      "text": "Addresses continuous monitoring requirements post-authorization",
+      "passed": false,
+      "evidence": "Keywords checked: ['continuous monitoring', 'ConMon']... (not found enough)"
+    }
+  ]
+}

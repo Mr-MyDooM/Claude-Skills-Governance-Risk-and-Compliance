@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "References the relevant CC control relating to logical access termination",
+      "passed": false,
+      "evidence": "Keywords checked: ['CC6', 'CC6.2', 'CC6.1']... (not found enough)"
+    },
+    {
+      "text": "Assesses the risk/severity of the exception accurately",
+      "passed": true,
+      "evidence": "Keywords checked: ['risk', 'severity', 'significant']... (found)"
+    },
+    {
+      "text": "Provides a management response with root cause analysis",
+      "passed": true,
+      "evidence": "Keywords checked: ['root cause', 'management response', \"management's response\"]... (found)"
+    },
+    {
+      "text": "Describes specific remediation steps",
+      "passed": true,
+      "evidence": "Keywords checked: ['automated', 'HRIS', 'deprovisioning']... (found)"
+    },
+    {
+      "text": "Explains impact on the overall audit opinion",
+      "passed": true,
+      "evidence": "Keywords checked: ['audit opinion', 'qualified', 'exception']... (found)"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Includes permitted uses and disclosures of PHI",
+      "passed": true,
+      "evidence": "Keywords checked: ['permitted use', 'permitted disclosure', 'PHI']... (found)"
+    },
+    {
+      "text": "Addresses safeguard requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['safeguard', 'administrative', 'physical']... (found)"
+    },
+    {
+      "text": "Includes breach/security incident reporting obligations",
+      "passed": true,
+      "evidence": "Keywords checked: ['breach', 'security incident', 'report']... (found)"
+    },
+    {
+      "text": "Covers termination provisions and PHI return/destruction",
+      "passed": true,
+      "evidence": "Keywords checked: ['termination', 'return', 'destroy']... (found)"
+    },
+    {
+      "text": "Addresses subcontractor/agent BAA requirements",
+      "passed": false,
+      "evidence": "Keywords checked: ['subcontractor', 'agent', 'downstream']... (not found enough)"
+    }
+  ]
+}

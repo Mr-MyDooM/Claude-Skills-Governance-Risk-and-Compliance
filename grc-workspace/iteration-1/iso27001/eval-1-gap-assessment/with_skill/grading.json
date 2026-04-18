@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "References ISO 27001:2022 (not just 2013) and mentions Annex A controls",
+      "passed": true,
+      "evidence": "Keywords checked: ['27001:2022', 'Annex A']... (found)"
+    },
+    {
+      "text": "Identifies at least 5 distinct gap areas",
+      "passed": true,
+      "evidence": "Keywords checked: ['risk assessment', 'asset', 'incident']... (found)"
+    },
+    {
+      "text": "Provides a phased roadmap with at least 3 phases or time-based milestones",
+      "passed": true,
+      "evidence": "Keywords checked: ['phase', 'month', 'roadmap']... (found)"
+    },
+    {
+      "text": "Mentions the mandatory clauses 4-10",
+      "passed": true,
+      "evidence": "Keywords checked: ['clause', '4', '5']... (found)"
+    },
+    {
+      "text": "Includes practical action items, not just abstract principles",
+      "passed": true,
+      "evidence": "Keywords checked: ['implement', 'create', 'establish']... (found)"
+    }
+  ]
+}

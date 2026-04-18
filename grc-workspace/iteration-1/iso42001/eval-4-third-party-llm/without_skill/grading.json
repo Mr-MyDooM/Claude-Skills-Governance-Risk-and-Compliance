@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Addresses supplier/third-party due diligence requirements for AI components",
+      "passed": true,
+      "evidence": "Keywords checked: ['supplier', 'third-party', 'due diligence']... (found)"
+    },
+    {
+      "text": "Covers contractual requirements with AI providers",
+      "passed": true,
+      "evidence": "Keywords checked: ['contract', 'agreement', 'contractual']... (found)"
+    },
+    {
+      "text": "Mentions the need to document and understand third-party model characteristics",
+      "passed": true,
+      "evidence": "Keywords checked: ['model characteristics', 'training data', 'document']... (found)"
+    },
+    {
+      "text": "Addresses monitoring for supplier changes",
+      "passed": true,
+      "evidence": "Keywords checked: ['monitor', 'model update', 'change']... (found)"
+    },
+    {
+      "text": "Covers residual risk and how to document accepted risks from third-party AI",
+      "passed": false,
+      "evidence": "Keywords checked: ['residual risk', 'accepted risk', 'risk acceptance']... (not found enough)"
+    }
+  ]
+}

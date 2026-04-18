@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-ai-specific-risks",
+  "prompt": "What are the unique risks that ISO 42001 addresses that are different from traditional IT risk management (like ISO 27001)? Give concrete examples of AI-specific risks.",
+  "assertions": []
+}

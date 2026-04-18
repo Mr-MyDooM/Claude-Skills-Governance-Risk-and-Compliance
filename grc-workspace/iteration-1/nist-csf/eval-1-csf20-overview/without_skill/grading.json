@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Lists all 6 CSF 2.0 functions: Govern, Identify, Protect, Detect, Respond, Recover",
+      "passed": true,
+      "evidence": "Keywords checked: ['Govern', 'Identify', 'Protect']... (found)"
+    },
+    {
+      "text": "Highlights the new Govern function as the major addition in CSF 2.0",
+      "passed": true,
+      "evidence": "Keywords checked: ['Govern', 'new', 'added']... (found)"
+    },
+    {
+      "text": "Explains that CSF 2.0 expanded scope beyond critical infrastructure",
+      "passed": true,
+      "evidence": "Keywords checked: ['expanded', 'beyond critical infrastructure', 'all organizations']... (found)"
+    },
+    {
+      "text": "Mentions organizational profiles concept",
+      "passed": true,
+      "evidence": "Keywords checked: ['profile', 'organizational profile', 'Current Profile']... (found)"
+    },
+    {
+      "text": "Addresses the relationship between tiers and risk management maturity",
+      "passed": false,
+      "evidence": "Keywords checked: ['tier', 'maturity', 'Tier 1']... (not found enough)"
+    }
+  ]
+}

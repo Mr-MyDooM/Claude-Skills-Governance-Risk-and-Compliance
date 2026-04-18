@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Confirms DPDPA applies to foreign entities offering goods/services to India-based individuals",
+      "passed": true,
+      "evidence": "Keywords checked: ['Section 3', 'applies', 'foreign']... (found)"
+    },
+    {
+      "text": "Explains the two grounds for processing (consent + 8 legitimate uses under Section 7)",
+      "passed": true,
+      "evidence": "Keywords checked: ['Section 7', 'consent', 'legitimate use']... (found)"
+    },
+    {
+      "text": "Covers the notice requirement under Section 5",
+      "passed": true,
+      "evidence": "Keywords checked: ['Section 5', 'notice', 'Data Principal']... (found)"
+    },
+    {
+      "text": "Addresses data breach notification obligation (72 hours to DPBI)",
+      "passed": true,
+      "evidence": "Keywords checked: ['72 hour', 'breach', 'DPBI']... (found)"
+    },
+    {
+      "text": "Explains Data Principal rights (Sections 11-14)",
+      "passed": true,
+      "evidence": "Keywords checked: ['Section 11', 'Section 12', 'Data Principal']... (found)"
+    }
+  ]
+}

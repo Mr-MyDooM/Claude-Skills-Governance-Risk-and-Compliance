@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "childrens-data",
+  "prompt": "Our platform is used by users of all ages in India, including minors. What does DPDPA require for processing children's data? How does this compare to GDPR's requirements?",
+  "assertions": []
+}

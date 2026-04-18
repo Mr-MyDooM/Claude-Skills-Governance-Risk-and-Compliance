@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Mentions immediate notification to the acquiring bank",
+      "passed": true,
+      "evidence": "Keywords checked: ['acquiring bank', 'acquirer', 'immediately']... (found)"
+    },
+    {
+      "text": "References engagement of a PCI Forensic Investigator (PFI)",
+      "passed": true,
+      "evidence": "Keywords checked: ['PFI', 'Forensic Investigator', 'forensic']... (found)"
+    },
+    {
+      "text": "Addresses card brand (Visa/Mastercard) notification requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['Visa', 'Mastercard', 'card brand']... (found)"
+    },
+    {
+      "text": "Covers the timeline obligations",
+      "passed": true,
+      "evidence": "Keywords checked: ['24 hour', '72 hour', 'immediately']... (found)"
+    },
+    {
+      "text": "Mentions potential card brand fines and penalties",
+      "passed": true,
+      "evidence": "Keywords checked: ['fine', 'penalty', 'assessment']... (found)"
+    }
+  ]
+}

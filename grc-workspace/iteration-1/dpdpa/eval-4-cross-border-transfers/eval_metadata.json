@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "cross-border-transfers",
+  "prompt": "What are the DPDPA requirements for cross-border data transfers? We currently transfer Indian user data to our US servers. Is this permissible?",
+  "assertions": []
+}

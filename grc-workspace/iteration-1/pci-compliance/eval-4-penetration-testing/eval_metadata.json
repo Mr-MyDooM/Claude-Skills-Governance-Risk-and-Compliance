@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "eval-4-penetration-testing",
+  "prompt": "What are the PCI DSS requirements for penetration testing? How often must we test, what must be in scope, and what qualifications should the tester have?",
+  "assertions": []
+}

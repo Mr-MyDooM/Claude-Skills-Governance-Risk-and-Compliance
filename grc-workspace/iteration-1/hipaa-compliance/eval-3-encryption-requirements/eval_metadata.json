@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-encryption-requirements",
+  "prompt": "What are the HIPAA Security Rule requirements for encrypting PHI? Do we legally have to encrypt data at rest and in transit? What happens if we have a breach and the data was not encrypted?",
+  "assertions": []
+}

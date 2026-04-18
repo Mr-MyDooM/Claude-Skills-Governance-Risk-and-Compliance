@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Identifies triggers for when a PIA is required",
+      "passed": true,
+      "evidence": "Keywords checked: ['trigger', 'when', 'new processing']... (found)"
+    },
+    {
+      "text": "Lists required elements of a PIA under ISO 27701",
+      "passed": true,
+      "evidence": "Keywords checked: ['element', 'include', 'description']... (found)"
+    },
+    {
+      "text": "Addresses risk assessment methodology within PIA",
+      "passed": true,
+      "evidence": "Keywords checked: ['risk assessment', 'likelihood', 'impact']... (found)"
+    },
+    {
+      "text": "Explains the relationship between ISO 27701 PIA and GDPR DPIA",
+      "passed": true,
+      "evidence": "Keywords checked: ['DPIA', 'GDPR', 'relationship']... (found)"
+    },
+    {
+      "text": "Covers documentation and sign-off requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['document', 'sign-off', 'approval']... (found)"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 3,
+  "pass_rate": 0.6,
+  "expectations": [
+    {
+      "text": "Covers the AI policy requirement as a foundational element",
+      "passed": true,
+      "evidence": "Keywords checked: ['AI policy', 'policy', 'clause 5']... (found)"
+    },
+    {
+      "text": "Addresses AI risk assessment methodology requirements",
+      "passed": false,
+      "evidence": "Keywords checked: ['risk assessment', 'methodology', 'clause 6']... (not found enough)"
+    },
+    {
+      "text": "Mentions AI impact assessment (AIIA) requirements",
+      "passed": false,
+      "evidence": "Keywords checked: ['impact assessment', 'AIIA', 'AISIA']... (not found enough)"
+    },
+    {
+      "text": "Covers data quality and data governance requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['data quality', 'data governance', 'Annex A']... (found)"
+    },
+    {
+      "text": "Addresses transparency and explainability as ISO 42001 objectives",
+      "passed": true,
+      "evidence": "Keywords checked: ['transparency', 'explainability', 'explain']... (found)"
+    }
+  ]
+}

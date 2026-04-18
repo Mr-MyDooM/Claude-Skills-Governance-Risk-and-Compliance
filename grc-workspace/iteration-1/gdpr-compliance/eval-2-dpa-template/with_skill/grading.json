@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Includes all Article 28 mandatory clauses",
+      "passed": true,
+      "evidence": "Keywords checked: ['Article 28', 'data processing agreement', 'DPA']... (found)"
+    },
+    {
+      "text": "Addresses sub-processor requirements and prior written consent",
+      "passed": false,
+      "evidence": "Keywords checked: ['sub-processor', 'subprocessor', 'prior written consent']... (not found enough)"
+    },
+    {
+      "text": "Covers data security obligations referencing Article 32",
+      "passed": true,
+      "evidence": "Keywords checked: ['Article 32', 'security', 'technical and organisational']... (found)"
+    },
+    {
+      "text": "Includes data subject rights assistance clause",
+      "passed": true,
+      "evidence": "Keywords checked: ['data subject rights', 'assistance', 'rights request']... (found)"
+    },
+    {
+      "text": "Addresses return or deletion of data upon termination",
+      "passed": true,
+      "evidence": "Keywords checked: ['deletion', 'return', 'destroy']... (found)"
+    }
+  ]
+}

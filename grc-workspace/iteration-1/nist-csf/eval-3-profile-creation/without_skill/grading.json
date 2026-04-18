@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 3,
+  "pass_rate": 0.6,
+  "expectations": [
+    {
+      "text": "Explains the Current Profile concept",
+      "passed": true,
+      "evidence": "Keywords checked: ['Current Profile', 'current state', 'current posture']... (found)"
+    },
+    {
+      "text": "Explains the Target Profile concept",
+      "passed": true,
+      "evidence": "Keywords checked: ['Target Profile', 'target state', 'desired']... (found)"
+    },
+    {
+      "text": "Describes the gap analysis between current and target profiles",
+      "passed": false,
+      "evidence": "Keywords checked: ['gap', 'difference', 'between current and target']... (not found enough)"
+    },
+    {
+      "text": "Mentions the role of business context and risk tolerance",
+      "passed": true,
+      "evidence": "Keywords checked: ['business context', 'risk tolerance', 'risk appetite']... (found)"
+    },
+    {
+      "text": "References the CSF tiers as indicators of maturity",
+      "passed": false,
+      "evidence": "Keywords checked: ['tier', 'Tier 1', 'Tier 2']... (not found enough)"
+    }
+  ]
+}

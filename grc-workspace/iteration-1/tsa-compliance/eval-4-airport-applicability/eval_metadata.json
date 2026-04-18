@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "eval-4-airport-applicability",
+  "prompt": "We are a small regional airport. Do TSA cybersecurity regulations apply to us? What category of aviation security does our airport fall under?",
+  "assertions": []
+}

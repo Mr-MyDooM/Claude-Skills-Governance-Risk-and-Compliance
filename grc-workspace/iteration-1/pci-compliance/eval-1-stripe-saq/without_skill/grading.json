@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Confirms PCI DSS applies to all merchants that process payment cards",
+      "passed": true,
+      "evidence": "Keywords checked: ['PCI DSS', 'applies', 'merchant']... (found)"
+    },
+    {
+      "text": "Explains the merchant level tiers (Level 1-4) based on transaction volume",
+      "passed": true,
+      "evidence": "Keywords checked: ['Level 1', 'Level 2', 'Level 3']... (found)"
+    },
+    {
+      "text": "Identifies SAQ-A as likely applicable for redirected payment",
+      "passed": true,
+      "evidence": "Keywords checked: ['SAQ-A', 'SAQ A', 'redirect']... (found)"
+    },
+    {
+      "text": "Explains cardholder data environment (CDE) scoping",
+      "passed": false,
+      "evidence": "Keywords checked: ['CDE', 'cardholder data environment', 'scope']... (not found enough)"
+    },
+    {
+      "text": "Addresses how using Stripe reduces PCI scope",
+      "passed": true,
+      "evidence": "Keywords checked: ['scope', 'reduce', 'Stripe']... (found)"
+    }
+  ]
+}

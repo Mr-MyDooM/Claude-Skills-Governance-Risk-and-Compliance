@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "dpa-template-article-28",
+  "prompt": "Draft a GDPR-compliant Data Processing Agreement (DPA) for use with our SaaS customers where we act as a data processor. Include all required clauses under Article 28.",
+  "assertions": []
+}

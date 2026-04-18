@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Lists the required elements of a TSA-compliant CIRP",
+      "passed": true,
+      "evidence": "Keywords checked: ['CIRP', 'Cybersecurity Incident Response', 'elements']... (found)"
+    },
+    {
+      "text": "Addresses roles and responsibilities for incident response",
+      "passed": true,
+      "evidence": "Keywords checked: ['roles', 'responsibilities', 'responsible']... (found)"
+    },
+    {
+      "text": "Covers coordination with government agencies in incident response",
+      "passed": true,
+      "evidence": "Keywords checked: ['TSA', 'CISA', 'FBI']... (found)"
+    },
+    {
+      "text": "States the annual testing/exercise requirement",
+      "passed": true,
+      "evidence": "Keywords checked: ['annual', 'exercise', 'test']... (found)"
+    },
+    {
+      "text": "Mentions plan review and update requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['review', 'update', 'annual']... (found)"
+    }
+  ]
+}

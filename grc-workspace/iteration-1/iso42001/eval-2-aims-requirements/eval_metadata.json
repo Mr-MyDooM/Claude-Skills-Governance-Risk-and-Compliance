@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-aims-requirements",
+  "prompt": "Walk us through the key requirements of ISO 42001 for an organization that develops AI products. What policies, processes, and documentation do we need?",
+  "assertions": []
+}

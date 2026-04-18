@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Explains how to use CSF tiers to communicate maturity level to executives",
+      "passed": true,
+      "evidence": "Keywords checked: ['tier', 'maturity', 'executive']... (found)"
+    },
+    {
+      "text": "Suggests translating technical gaps to business risk language",
+      "passed": true,
+      "evidence": "Keywords checked: ['business risk', 'translate', 'non-technical']... (found)"
+    },
+    {
+      "text": "Provides metric examples for board reporting",
+      "passed": true,
+      "evidence": "Keywords checked: ['metric', 'KPI', 'measure']... (found)"
+    },
+    {
+      "text": "Addresses the Govern function's role in board-level oversight",
+      "passed": true,
+      "evidence": "Keywords checked: ['Govern', 'GV.', 'governance']... (found)"
+    },
+    {
+      "text": "Suggests connecting cybersecurity outcomes to business objectives",
+      "passed": false,
+      "evidence": "Keywords checked: ['business objective', 'strategic', 'aligned']... (not found enough)"
+    }
+  ]
+}

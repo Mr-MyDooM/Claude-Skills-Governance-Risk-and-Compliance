@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-availability-criteria",
+  "prompt": "A customer wants us to include the Availability criteria in our SOC 2 report in addition to Security. What additional controls and commitments does this require? How does it differ from just having Security?",
+  "assertions": []
+}

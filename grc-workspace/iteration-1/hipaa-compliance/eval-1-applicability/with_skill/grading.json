@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Explains the three types of covered entities",
+      "passed": true,
+      "evidence": "Keywords checked: ['healthcare provider', 'health plan', 'clearinghouse']... (found)"
+    },
+    {
+      "text": "Explains the business associate definition and when a BAA is required",
+      "passed": true,
+      "evidence": "Keywords checked: ['business associate', 'BAA', 'Business Associate Agreement']... (found)"
+    },
+    {
+      "text": "Assesses the app's HIPAA status clearly",
+      "passed": true,
+      "evidence": "Keywords checked: ['covered entity', 'business associate', 'HIPAA applies']... (found)"
+    },
+    {
+      "text": "Mentions the HITECH Act and its relationship to HIPAA",
+      "passed": true,
+      "evidence": "Keywords checked: ['HITECH', 'HITECH Act']... (found)"
+    },
+    {
+      "text": "Addresses what PHI is and the 18 PHI identifiers",
+      "passed": true,
+      "evidence": "Keywords checked: ['PHI', 'Protected Health Information', '18']... (found)"
+    }
+  ]
+}

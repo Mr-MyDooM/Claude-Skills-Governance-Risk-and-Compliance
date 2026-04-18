@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-stripe-saq",
+  "prompt": "We are an e-commerce company that takes credit card payments on our website via Stripe. Do we need PCI DSS compliance? What SAQ level applies to us?",
+  "assertions": []
+}

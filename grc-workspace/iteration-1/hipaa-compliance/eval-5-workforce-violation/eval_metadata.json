@@ -1,0 +1,6 @@
+{
+  "eval_id": 5,
+  "eval_name": "eval-5-workforce-violation",
+  "prompt": "A nurse at our hospital accidentally accessed the medical records of a celebrity patient without a legitimate reason. What HIPAA violation occurred? What are our obligations? What penalties could apply?",
+  "assertions": []
+}

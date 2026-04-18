@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-applicability-eu-ai",
+  "prompt": "We are a technology company deploying AI systems in healthcare decision support. What is ISO 42001 and do we need to comply with it? How does it relate to EU AI Act requirements?",
+  "assertions": []
+}

@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Covers the 6 lawful bases for processing under Article 6",
+      "passed": true,
+      "evidence": "Keywords checked: ['lawful basis', 'legal basis', 'Article 6']... (found)"
+    },
+    {
+      "text": "Mentions privacy notice requirements (Articles 13/14)",
+      "passed": true,
+      "evidence": "Keywords checked: ['Article 13', 'Article 14', 'privacy notice']... (found)"
+    },
+    {
+      "text": "Addresses data subject rights (Articles 15-22)",
+      "passed": false,
+      "evidence": "Keywords checked: ['data subject rights', 'Article 15', 'Article 17']... (not found enough)"
+    },
+    {
+      "text": "Covers international transfer mechanisms",
+      "passed": true,
+      "evidence": "Keywords checked: ['SCCs', 'Standard Contractual Clauses', 'adequacy']... (found)"
+    },
+    {
+      "text": "Mentions breach notification requirements (72-hour timeline under Article 33)",
+      "passed": true,
+      "evidence": "Keywords checked: ['72 hour', 'Article 33', 'breach notification']... (found)"
+    }
+  ]
+}

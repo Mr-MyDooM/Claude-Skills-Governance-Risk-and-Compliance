@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "eval-4-privacy-impact-assessment",
+  "prompt": "We are conducting a Privacy Impact Assessment (PIA) as required by ISO 27701. What is the methodology? What triggers a PIA and what must it include?",
+  "assertions": []
+}

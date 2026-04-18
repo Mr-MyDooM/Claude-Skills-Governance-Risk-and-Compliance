@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Explains that TSA cybersecurity requirements for aviation are tiered by facility category",
+      "passed": true,
+      "evidence": "Keywords checked: ['tier', 'category', 'airport']... (found)"
+    },
+    {
+      "text": "Addresses the different obligations for airports vs airlines",
+      "passed": true,
+      "evidence": "Keywords checked: ['airport', 'airline', 'operator']... (found)"
+    },
+    {
+      "text": "Clarifies how facility categorization is determined",
+      "passed": true,
+      "evidence": "Keywords checked: ['category', 'tier', 'passenger volume']... (found)"
+    },
+    {
+      "text": "Identifies what a small/regional airport's likely obligations are",
+      "passed": true,
+      "evidence": "Keywords checked: ['small', 'regional', 'airport']... (found)"
+    },
+    {
+      "text": "Mentions coordination with airport security programs and TSA Security Programs",
+      "passed": true,
+      "evidence": "Keywords checked: ['security program', 'TSA', 'coordinate']... (found)"
+    }
+  ]
+}

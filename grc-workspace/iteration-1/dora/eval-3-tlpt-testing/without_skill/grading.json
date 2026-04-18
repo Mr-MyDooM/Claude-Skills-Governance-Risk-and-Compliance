@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Distinguishes basic digital resilience testing from advanced TLPT",
+      "passed": true,
+      "evidence": "Keywords checked: ['basic', 'advanced', 'TLPT']... (found)"
+    },
+    {
+      "text": "States TLPT frequency (at least every 3 years)",
+      "passed": true,
+      "evidence": "Keywords checked: ['3 year', 'three year', 'every 3']... (found)"
+    },
+    {
+      "text": "Explains TLPT as threat intelligence-led red team exercises",
+      "passed": true,
+      "evidence": "Keywords checked: ['threat intelligence', 'red team', 'threat-led']... (found)"
+    },
+    {
+      "text": "Addresses which financial entities are required to perform TLPT",
+      "passed": true,
+      "evidence": "Keywords checked: ['significant', 'systemically important', 'required']... (found)"
+    },
+    {
+      "text": "Mentions the role of competent authorities in TLPT oversight",
+      "passed": true,
+      "evidence": "Keywords checked: ['competent authority', 'authority', 'oversight']... (found)"
+    }
+  ]
+}

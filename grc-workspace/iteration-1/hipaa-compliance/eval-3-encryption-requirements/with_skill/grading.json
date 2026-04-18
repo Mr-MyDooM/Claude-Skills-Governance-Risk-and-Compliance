@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Correctly states that encryption is 'addressable' not 'required' under HIPAA Security Rule",
+      "passed": true,
+      "evidence": "Keywords checked: ['addressable', 'required', 'not required']... (found)"
+    },
+    {
+      "text": "Explains the distinction between 'required' and 'addressable' implementation specifications",
+      "passed": true,
+      "evidence": "Keywords checked: ['addressable', 'required', 'implementation specification']... (found)"
+    },
+    {
+      "text": "Addresses the breach notification safe harbor for encrypted data",
+      "passed": true,
+      "evidence": "Keywords checked: ['safe harbor', 'breach notification', 'encrypted']... (found)"
+    },
+    {
+      "text": "Covers both at-rest and in-transit encryption considerations",
+      "passed": true,
+      "evidence": "Keywords checked: ['at rest', 'in transit', 'at-rest']... (found)"
+    },
+    {
+      "text": "Mentions HHS guidance or NIST standards for acceptable encryption",
+      "passed": true,
+      "evidence": "Keywords checked: ['HHS', 'NIST', 'AES']... (found)"
+    }
+  ]
+}

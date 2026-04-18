@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 4,
+  "pass_rate": 0.8,
+  "expectations": [
+    {
+      "text": "Clarifies that DORA is a regulation (directly applicable) vs EBA guidelines (soft law)",
+      "passed": true,
+      "evidence": "Keywords checked: ['regulation', 'directly applicable', 'soft law']... (found)"
+    },
+    {
+      "text": "Identifies new DORA requirements beyond EBA guidelines",
+      "passed": true,
+      "evidence": "Keywords checked: ['TLPT', 'new requirement', 'beyond']... (found)"
+    },
+    {
+      "text": "Acknowledges that EBA compliance provides a good foundation for DORA",
+      "passed": false,
+      "evidence": "Keywords checked: ['foundation', 'basis', 'head start']... (not found enough)"
+    },
+    {
+      "text": "Lists key gaps between EBA guidelines and DORA requirements",
+      "passed": true,
+      "evidence": "Keywords checked: ['gap', 'additional', 'new']... (found)"
+    },
+    {
+      "text": "Addresses the timeline for upgrading from EBA to DORA compliance",
+      "passed": true,
+      "evidence": "Keywords checked: ['17 January 2025', 'January 2025', 'deadline']... (found)"
+    }
+  ]
+}

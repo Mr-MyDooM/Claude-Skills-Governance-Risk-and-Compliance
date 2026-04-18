@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "States the 30-day response deadline and 2-month extension provision",
+      "passed": true,
+      "evidence": "Keywords checked: ['30 day', 'one month', 'two month']... (found)"
+    },
+    {
+      "text": "Lists all required SAR response elements per Article 15",
+      "passed": true,
+      "evidence": "Keywords checked: ['Article 15', 'purpose', 'recipients']... (found)"
+    },
+    {
+      "text": "Explains grounds for refusing or redacting",
+      "passed": true,
+      "evidence": "Keywords checked: ['third party', 'legal privilege', 'redact']... (found)"
+    },
+    {
+      "text": "Addresses the exemption for manifestly unfounded/excessive requests",
+      "passed": true,
+      "evidence": "Keywords checked: ['manifestly unfounded', 'excessive', 'manifestly excessive']... (found)"
+    },
+    {
+      "text": "Mentions consequences: complaint to supervisory authority, potential fines",
+      "passed": true,
+      "evidence": "Keywords checked: ['supervisory authority', 'complaint', 'fine']... (found)"
+    }
+  ]
+}

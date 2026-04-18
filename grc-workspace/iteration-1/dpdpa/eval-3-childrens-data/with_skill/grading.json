@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "States DPDPA age threshold of 18 years",
+      "passed": true,
+      "evidence": "Keywords checked: ['18 year', '18 years', 'under 18']... (found)"
+    },
+    {
+      "text": "Covers the requirement for verifiable parental/guardian consent",
+      "passed": true,
+      "evidence": "Keywords checked: ['verifiable', 'parental consent', 'guardian']... (found)"
+    },
+    {
+      "text": "Lists prohibited processing categories",
+      "passed": true,
+      "evidence": "Keywords checked: ['behavioral monitoring', 'targeted advertising', 'prohibited']... (found)"
+    },
+    {
+      "text": "Addresses verification mechanisms prescribed by rules",
+      "passed": true,
+      "evidence": "Keywords checked: ['DigiLocker', 'government token', 'verification mechanism']... (found)"
+    },
+    {
+      "text": "States the penalty for children's data violations",
+      "passed": true,
+      "evidence": "Keywords checked: ['200 crore', '\u20b9200', 'penalty']... (found)"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "us-company-applicability",
+  "prompt": "We are a US technology company that has just acquired Indian customers. Does India's Digital Personal Data Protection Act (DPDPA) apply to us? What are our key obligations as a Data Fiduciary?",
+  "assertions": []
+}

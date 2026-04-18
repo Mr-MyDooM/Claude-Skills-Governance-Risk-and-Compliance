@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-tlpt-testing",
+  "prompt": "DORA requires digital operational resilience testing. What types of testing are required, how often, and what is TLPT (Threat-Led Penetration Testing)?",
+  "assertions": []
+}

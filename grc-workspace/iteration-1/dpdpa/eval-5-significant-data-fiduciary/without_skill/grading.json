@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 5,
+  "pass_rate": 1.0,
+  "expectations": [
+    {
+      "text": "Lists the SDF designation criteria under Section 10",
+      "passed": true,
+      "evidence": "Keywords checked: ['Section 10', 'designation', 'volume']... (found)"
+    },
+    {
+      "text": "Covers India-resident DPO requirement for SDFs",
+      "passed": true,
+      "evidence": "Keywords checked: ['India-resident', 'DPO', 'resident in India']... (found)"
+    },
+    {
+      "text": "Addresses annual DPIA requirement for SDFs",
+      "passed": true,
+      "evidence": "Keywords checked: ['DPIA', 'annual', 'impact assessment']... (found)"
+    },
+    {
+      "text": "Covers annual independent data audit requirement for SDFs",
+      "passed": true,
+      "evidence": "Keywords checked: ['annual', 'audit', 'independent']... (found)"
+    },
+    {
+      "text": "Explains that SDF designation is by Central Government notification",
+      "passed": true,
+      "evidence": "Keywords checked: ['Central Government', 'government notification', 'notified']... (found)"
+    }
+  ]
+}

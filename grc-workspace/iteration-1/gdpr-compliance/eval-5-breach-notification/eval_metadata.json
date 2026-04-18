@@ -1,0 +1,6 @@
+{
+  "eval_id": 5,
+  "eval_name": "breach-notification-72-hour",
+  "prompt": "We discovered a data breach — an employee accidentally emailed a spreadsheet containing names, emails, and account numbers of 500 customers to the wrong recipient. Walk us through the GDPR breach notification requirements and what we need to do in the next 72 hours.",
+  "assertions": []
+}
