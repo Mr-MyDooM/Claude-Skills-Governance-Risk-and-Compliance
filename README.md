@@ -1,11 +1,11 @@
 # Claude Skills for Governance, Risk & Compliance (GRC)
-Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, TSA Cybersecurity, and ISO 42001 AI Management System — powered by Claude Skills.
+Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, TSA Cybersecurity, ISO 42001 AI Management System, and ISO 27701 Privacy Information Management — powered by Claude Skills.
 
 Benchmarked across 18 test cases (2 per framework) using the eval framework — each graded against 4–5 verifiable assertions by independent agents. Skills scored **94% ± 10%** vs a baseline of 72% ± 28%.
 
 [![Release: v0.3.0](https://img.shields.io/badge/Release-v0.3.0-brightgreen.svg)](../../releases/tag/v0.3.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills: 9](https://img.shields.io/badge/Skills-9-green.svg)](#the-skills)
+[![Skills: 10](https://img.shields.io/badge/Skills-10-green.svg)](#the-skills)
 [![Built with Claude](https://img.shields.io/badge/Built%20with-Claude-orange.svg)](https://claude.ai)
 
 ---
@@ -24,6 +24,7 @@ Benchmarked across 18 test cases (2 per framework) using the eval framework — 
   - [PCI DSS](#-pci-dss)
   - [TSA Cybersecurity](#-tsa-cybersecurity)
   - [ISO 42001 AI Management System](#-iso-42001-ai-management-system)
+  - [ISO 27701 Privacy Information Management](#-iso-27701-privacy-information-management)
 - [Potential Use Cases](#potential-use-cases)
 - [How to Install a Skill](#how-to-install-a-skill)
 - [Install via Claude Code Marketplace](#install-via-claude-code-marketplace)
@@ -241,6 +242,25 @@ The ISO 42001 skill turns Claude into an expert **ISO/IEC 42001:2023** AI Manage
 
 ---
 
+### 10. 🔒 ISO 27701 Privacy Information Management
+
+**File:** `ISO 27701 - Claude Skill/iso27701.skill`
+
+The ISO 27701 skill turns Claude into an expert **ISO/IEC 27701:2025** Privacy Information Management System (PIMS) advisor — covering the full lifecycle from gap assessment through certification. It handles both **ISO 27701:2025** (the new standalone edition) and **ISO 27701:2019** (the legacy ISO 27001 extension), and covers both **PII controllers** and **PII processors**.
+
+**What it does:**
+- Conducts structured **gap analyses** across all mandatory HLS clauses (4–10) and all 78 Annex A controls — 31 for PII controllers (A.1), 18 for PII processors (A.2), and 29 shared security controls (A.3)
+- Generates complete, audit-ready **PIMS policy documents** — Privacy Policy, Records of Processing Activities (RoPA), Data Subject Rights Procedure, Privacy by Design Procedure, Data Processing Agreements (DPAs), and more
+- Builds **privacy risk registers** focused on harm to PII principals, triggers DPIAs for high-risk processing, and produces risk treatment plans
+- Creates **Statements of Applicability (SoA)** scoped to the organization's role (controller, processor, or both) with applicability decisions and justification
+- Provides **control-by-control implementation guidance** for every A.1, A.2, and A.3 control — with purpose, implementation steps, audit evidence, and common pitfalls
+- Guides **2019 → 2025 transitions** with a full control mapping table, gap analysis checklist, and recommended timeline to the October 2028 deadline
+- **Maps ISO 27701 to GDPR** article by article, plus CCPA/CPRA, LGPD, PIPEDA, PDPA (Singapore/Thailand), and UK GDPR
+
+**Trigger phrases:** `ISO 27701`, `PIMS`, `privacy information management`, `PII controller`, `PII processor`, `privacy risk assessment`, `DPIA`, `data subject rights`, `records of processing activities`, `RoPA`, `privacy by design`, `data processing agreement`, `DPA`, `GDPR alignment ISO 27701`, `ISO 27701:2025`, `ISO 27701:2019`, `27701 transition`, `standalone PIMS`, `Annex A controller controls`, `Annex A processor controls`
+
+---
+
 ## Potential Use Cases
 
 | Scenario | Relevant Skill(s) |
@@ -290,6 +310,15 @@ The ISO 42001 skill turns Claude into an expert **ISO/IEC 42001:2023** AI Manage
 | Mapping ISO 42001 AISIA requirements to EU AI Act Fundamental Rights Impact Assessment (FRIA) | ISO 42001 |
 | Integrating an ISO 42001 AIMS with an existing ISO 27001 ISMS | ISO 42001 + ISO 27001 |
 | Governing staff use of public AI tools (ChatGPT, Copilot) under Annex A control A.9.2 and A.9.4 | ISO 42001 |
+| Running an ISO 27701:2025 gap assessment for a SaaS company acting as both PII controller and processor | ISO 27701 |
+| Transitioning from ISO 27701:2019 certification to the 2025 standalone edition | ISO 27701 |
+| Drafting a GDPR-aligned Data Processing Agreement (DPA) with all required Article 28 clauses | ISO 27701 |
+| Building a Records of Processing Activities (RoPA) covering all processing operations | ISO 27701 |
+| Completing a DPIA for a new AI feature that profiles users for targeted advertising | ISO 27701 |
+| Implementing a Data Subject Rights handling procedure with response SLAs | ISO 27701 |
+| Mapping ISO 27701:2025 controls to GDPR articles for a compliance audit | ISO 27701 |
+| Assessing sub-processor management obligations for a cloud-native B2B SaaS | ISO 27701 |
+| Integrating a PIMS with an existing ISO 27001:2022 ISMS to avoid duplicating controls | ISO 27701 + ISO 27001 |
 
 ---
 
@@ -308,6 +337,7 @@ The ISO 42001 skill turns Claude into an expert **ISO/IEC 42001:2023** AI Manage
    | 💳 PCI DSS | [PCI-Compliance.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/PCI%20Compliance%20-%20Claude%20Skill/PCI-Compliance.skill) |
    | 🚨 TSA Cybersecurity | [TSA-Compliance.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/TSA%20Compliance%20-%20Claude%20Skill/TSA-Compliance.skill) |
    | 🤖 ISO 42001 AI Management System | [ISO-42001.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/ISO%2042001%20-%20Claude%20Skill/ISO-42001.skill) |
+   | 🔒 ISO 27701 Privacy Information Management | [iso27701.skill](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/raw/main/ISO%2027701%20-%20Claude%20Skill/iso27701.skill) |
 
 2. Open Claude and navigate to **Customize → Skills**.
 3. Click **Upload Skill** and select the `.skill` file.
@@ -327,7 +357,7 @@ Add the marketplace and install the skills you need directly from the terminal:
 
 ```shell
 /plugin marketplace add Sushegaad/Claude-Skills-Governance-Risk-and-Compliance
-/plugin install iso27001@grc-skills soc2@grc-skills fedramp@grc-skills gdpr-compliance@grc-skills hipaa-compliance@grc-skills nist-csf@grc-skills pci-compliance@grc-skills tsa-compliance@grc-skills iso42001@grc-skills
+/plugin install iso27001@grc-skills soc2@grc-skills fedramp@grc-skills gdpr-compliance@grc-skills hipaa-compliance@grc-skills nist-csf@grc-skills pci-compliance@grc-skills tsa-compliance@grc-skills iso42001@grc-skills iso27701@grc-skills
 ```
 
 Teams can pre-wire the marketplace in `.claude/settings.json` so every developer gets the skills automatically when they open the project — no manual install required.
